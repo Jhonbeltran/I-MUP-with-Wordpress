@@ -79,32 +79,7 @@
 <!-- END TOP BAR -->
 
 <!-- START HEADER -->
-<div id="header" class="group">
-    <div class="group container">
-        <div class="row">
-            <div class="span12">
 
-                <div class="row">
-                    <!-- START LOGO -->
-                    <div id="logo" class="span4 group">
-                        <a id="logo-img" href="index.html" title="celestino">
-                            <img src="images/celestino1.png" title="celestino" alt="celestino" />
-                        </a>
-
-                        <p id="tagline">only for creative minds.</p>
-                    </div>
-                    <!-- END LOGO -->
-                    <div id="menu" class="span8 group">
-                        <!-- START MAIN NAVIGATION -->
-                      
-                        <!-- END MAIN NAVIGATION -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="border-header"></div>
-</div>
 <!-- END HEADER -->
 
 <!-- START SLIDER -->

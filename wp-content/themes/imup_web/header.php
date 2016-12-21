@@ -7,10 +7,6 @@
 
     <title> <?php bloginfo('name'); ?> <?php bloginfo('description'); ?></title>
 
-    <h1>
-      <a href="<?php echo get_option('home'); ?>">
-         <?php bloginfo('name'); ?></a>
-    </h1>
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
