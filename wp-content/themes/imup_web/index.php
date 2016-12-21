@@ -629,15 +629,15 @@
 
         <li  class="filterable_item span3 webdesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0047-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/0047-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
                         <a href="portfolios/portfolio-detail/?cpt_item=digitpool-medien" class="open_slide">
-                            <img src="images/icons/project.png" alt="" />
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
                         </a>
                     </div>
 
