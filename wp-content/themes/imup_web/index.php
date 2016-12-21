@@ -341,7 +341,7 @@
                          data-speed="1500"
                          data-start="5000"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l2.png" alt="Image 16">
+                        <img src="images/slider/3-l2.png" alt="Image 16">
                     </div>
                 </li>
                 </ul>
@@ -443,15 +443,15 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -473,13 +473,13 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                            <img width="574" height="340" src="images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
                                         </li>
                                     </ul>
                                 </div>
@@ -519,15 +519,15 @@
 
         <li  class="filterable_item span3 brandidentity  logodesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/blog/0023-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/blog/0023-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/blog/0023.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/blog/0023.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=vitale-premium" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=vitale-premium" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -545,7 +545,7 @@
                         <div class="work-thumbnail span6">
                             <div class="thumb-wrapper">
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0023-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="002" />
+                                    <img width="574" height="340" src="images/portfolios/0023-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="002" />
                                 </a>
                             </div>
                         </div>
@@ -561,7 +561,7 @@
                                     <span class="meta-label">Project:</span> Brand Identity, Web Design
                                 </p>
                                 <p class="customer">
-                                    <span class="meta-label">Customer:</span> Vitale Premium - <a href="<?php bloginfo ('template_directory'); ?>/http://vitale.com">vitale.com</a>
+                                    <span class="meta-label">Customer:</span> Vitale Premium - <a href="http://vitale.com">vitale.com</a>
                                 </p>
                                 <p class="workdate"><span class="meta-label">Year:</span> 2002</p>
                             </div>
@@ -575,15 +575,15 @@
 
         <li  class="filterable_item span3 brandidentity  logodesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/00311-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00311-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/0037.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/0037.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=nili-studios" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=nili-studios" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -604,7 +604,7 @@
 
 
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0034-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="003" />
+                                    <img width="574" height="340" src="images/portfolios/0034-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="003" />
                                 </a>
                             </div>
                         </div>
@@ -629,12 +629,12 @@
 
         <li  class="filterable_item span3 webdesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/0047-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0047-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
                         <a href="portfolios/portfolio-detail/?cpt_item=digitpool-medien" class="open_slide">
                             <img src="images/icons/project.png" alt="" />
