@@ -18,7 +18,7 @@
 <html lang="en-US">
 <![endif]-->
 
-
+<?php get_header(); ?>
 
 <!-- START BODY -->
 <body class="home page no_js responsive stretched">
