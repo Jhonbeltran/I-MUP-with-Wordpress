@@ -5,9 +5,10 @@
     <!-- this line will appear only if the website is visited with an iPad -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
-    <title> <a href="<?php echo get_option('home'); ?>">
-       <?php bloginfo('name'); ?></a></title>
+    <title> <?php bloginfo('name'); ?></title>
 
+    <a href="<?php echo get_option('home'); ?>">
+       <?php bloginfo('name'); ?></a>
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
