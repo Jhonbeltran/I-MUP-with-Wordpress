@@ -443,15 +443,15 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
-                            <img src="images/icons/project.png" alt="" />
+                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
                         </a>
                     </div>
 
