@@ -70,5 +70,159 @@
 
             <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
     </div>
+    <body class="home page no_js responsive stretched">
+
+    <!-- START BG SHADOW -->
+    <div class="bg-shadow">
+
+    <!-- START WRAPPER -->
+    <div id="wrapper" class="container group">
+    <!-- START TOP BAR -->
+
+    <!-- START TOP BAR -->
+    <div id="topbar">
+        <div class="container">
+            <div class="row">
+                <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
+                    <h3>Last Tweets</h3>
+                    <div class="list-tweets-3"></div>
+
+                    <script type="text/javascript">
+                        jQuery(function($){
+                            $('#last-tweets-3 .list-tweets-3').tweetable({
+                                listClass: 'tweets-widget-3',
+                                username: 'YIW',
+                                time: false,
+                                limit: 3,
+                                replies: false
+                            });
+                        });
+                    </script>
+
+                </div>
+
+                <div id="text-8" class=" widget-last span6 widget widget_text">
+                    <div class="textwidget">
+                        <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
+
+                        <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
+
+                        <a href="#" class="socials-small twitter-small" title="Twitter"  >twitter</a>
+
+                        <a href="#" class="socials-small google-small" title="Google"  >google</a>
+
+                        <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
+
+                        <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        jQuery(function($){
+            var twitterSlider = function(){
+                $('#topbar .last-tweets ul').addClass('slides');
+                $('#topbar .last-tweets').flexslider({
+                    animation: "fade",
+                    slideshowSpeed: 5 * 1000,
+                    animationDuration: 700,
+                    directionNav: false,
+                    controlNav: false,
+                    keyboardNav: false
+                });
+            };
+            $('#topbar .last-tweets > div').bind('tweetable_loaded', function(){
+                twitterSlider();
+            });
+        });
+    </script>
+
+    <!-- END TOP BAR -->
+
+    <!-- START HEADER -->
+    <div id="header" class="group">
+        <div class="group container">
+            <div class="row">
+                <div class="span12">
+
+                    <div class="row">
+                        <!-- START LOGO -->
+                        <div id="logo" class="span4 group">
+                            <a id="logo-img" href="index.html" title="celestino">
+                                <img src="images/celestino1.png" title="celestino" alt="celestino" />
+                            </a>
+
+                            <p id="tagline">only for creative minds.</p>
+                        </div>
+                        <!-- END LOGO -->
+                        <div id="menu" class="span8 group">
+                            <!-- START MAIN NAVIGATION -->
+                            <div class="menu">
+                                <ul id="nav" class="sf-menu">
+                                    <li class="nav-icon-hi current_page_item">
+                                        <a href="index.html">
+                                            Home
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    <li class="nav-icon-monitor">
+                                        <a href="#">
+                                            Sliders
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-icon-doc">
+                                        <a href="#">
+                                            Pages
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-icon-works">
+                                        <a href="#">
+                                            Portfolio
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-icon-newspaper">
+                                        <a href="#">
+                                            Blog
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-icon-lab">
+                                        <a href="#">
+                                            Shortcodes
+                                            <div style="position:absolute; left: 50%;">
+                                                <span class="triangle">&nbsp;</span>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- END MAIN NAVIGATION -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="border-header"></div>
+    </div>
+
 </head>
 <!-- END HEAD -->
