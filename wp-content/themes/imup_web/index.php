@@ -1,3 +1,8 @@
+
+
+<?php get_header( $name ); ?>
+
+
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" class="ie"lang="en-US">
@@ -1071,3 +1076,5 @@
 </body>
 <!-- END BODY -->
 </html>
+
+<?php get_footer( $name ); ?>
