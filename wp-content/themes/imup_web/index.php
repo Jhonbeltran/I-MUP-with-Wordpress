@@ -512,6 +512,96 @@
                         </div>
 
                         <div class="clear"></div>
+                        <div id="content-home" class="span12 content group">
+                            <div class="page type-page status-publish hentry group">
+
+                        <script>
+                            jQuery(document).ready(function($){
+                                $('.sidebar').remove();
+
+                                if( !$('#primary').hasClass('sidebar-no') ) {
+                                    $('#primary').removeClass().addClass('sidebar-no');
+                                    $('.content').removeClass('span9').addClass('span12');
+                                }
+
+                            });
+                        </script>
+
+                    <div class="row">
+                        <ul id="portfolio" class="slide-detail detail thumbnails">
+
+
+                            <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
+
+                                <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+
+                            <div class="ch-info">
+                                <div class="ch-info-icons">
+                                    <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                                        <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                                    </a>
+                                    <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                                        <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                                    </a>
+                                </div>
+
+
+                                <div class="ch-info-text">
+                                    <p class="title">Bob Miller</p>
+                                    <p class="subtitle">Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide_detail">
+                            <div class="container portfolio-full-description">
+                                <div class="slide_close">[x] Close</div>
+                                <div class="page type-page status-publish hentry work group row">
+                                    <div class="work-thumbnail span6">
+                                        <div class="thumb-wrapper">
+
+                                            <div class="extra-images-slider">
+                                                <ul class="slides">
+                                                    <li>
+                                                        <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                                    </li>
+                                                    <li>
+                                                        <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                                    </li>
+                                                    <li>
+                                                        <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <script type="text/javascript">
+                                                jQuery(document).ready(function($){
+                                                    $('.extra-images-slider').flexslider({
+                                                        controlNav: false
+                                                    });
+                                                });
+                                            </script>
+                                        </div>
+                                    </div>
+
+                                    <div class="work-description span6">
+                                        <h3>Bob Miller</h3>
+                                        <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.<!--more--></p>
+                                        <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui.
+                                            Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et. Sed
+                                            <a href="#">porttitor eros</a>
+                                            ut purus elementum a consectetur purus vulputate
+                                        </p>
+
+                                        <div class="work-skillsdate span6">
+                                            <p class="categories paragraph-links">
+                                                <span class="meta-label">Project:</span> Photoshop, Illustrator
+                                            </p>
+                                            <p class="customer"><span class="meta-label">Customer:</span> Bob Miller </p>
+                                            <p class="workdate"><span class="meta-label">Year:</span> 2012</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="clear"></div>
                     </div>
                 </div>
             </div>
