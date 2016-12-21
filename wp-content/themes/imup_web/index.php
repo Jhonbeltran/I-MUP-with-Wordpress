@@ -1,6 +1,30 @@
 <?php get_header(); ?>
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
+<!-- BOOTSTRAP STYLESHEET -->
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/bootstrap.css" />
+<!-- MAIN THEME STYLESHEET -->
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/style.css" />
 
+<link rel='stylesheet' id='custom-css'  href='<?php bloginfo ('template_directory'); ?>/css/custom.css' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='<?php bloginfo ('template_directory'); ?>/http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='<?php bloginfo ('template_directory'); ?>/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='<?php bloginfo ('template_directory'); ?>/js/thickbox/thickbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tipsy-css'  href='<?php bloginfo ('template_directory'); ?>/css/tipsy.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='fonts-css'  href='<?php bloginfo ('template_directory'); ?>/css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='full-descriptor-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/full-description/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slide-details-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/slide-detail/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcode-css'  href='<?php bloginfo ('template_directory'); ?>/css/shortcodes.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='colorbox-css'  href='<?php bloginfo ('template_directory'); ?>/css/colorbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-button-mfast-3-css'  href='<?php bloginfo ('template_directory'); ?>/css/buttons/mfast-3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-elegant-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
+  <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.js'></script>
 <!-- START SLIDER -->
 <div id="slider-revolution-slider" class="slider slider-revolution-slider revolution-slider">
     <div class="shadowWrapper">
