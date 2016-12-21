@@ -27,7 +27,7 @@
             <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:400px;height:400;">
                 <ul>
                     <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                        <img src="images/slider/1-bg.jpg">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-bg.jpg">
 
                         <div class="tp-caption lfb"
                              data-x="30"
@@ -35,7 +35,7 @@
                              data-speed="2000"
                              data-start="300"
                              data-easing="easeOutQuint">
-                            <img src="images/slider/1-l1.png" alt="Image1">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l1.png" alt="Image1">
                         </div>
 
                         <div class="tp-caption main_title lft"
@@ -73,7 +73,7 @@
                              data-speed="1200"
                              data-start="2500"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l2.png" alt="Image 5">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l2.png" alt="Image 5">
                         </div>
 
                         <div class="tp-caption lft"
@@ -82,7 +82,7 @@
                              data-speed="1200"
                              data-start="3000"
                              data-easing="easeOutBounce"  >
-                            <img src="images/slider/1-l3.png" alt="Image 8">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l3.png" alt="Image 8">
                         </div>
 
                         <div class="tp-caption lfr"
@@ -91,7 +91,7 @@
                              data-speed="1200"
                              data-start="3400"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l4.png" alt="Image 9">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l4.png" alt="Image 9">
                         </div>
 
                         <div class="tp-caption lfl"
@@ -100,7 +100,7 @@
                              data-speed="1200"
                              data-start="3800"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l5.png" alt="Image 10">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l5.png" alt="Image 10">
                         </div>
 
                         <div class="tp-caption lft"
@@ -109,7 +109,7 @@
                              data-speed="1200"
                              data-start="4200"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l6.png" alt="Image 11">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l6.png" alt="Image 11">
                         </div>
 
                         <div class="tp-caption lfb"
@@ -118,7 +118,7 @@
                              data-speed="1200"
                              data-start="4600"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l7.png" alt="Image 12">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l7.png" alt="Image 12">
                         </div>
 
                         <div class="tp-caption lft"
@@ -127,11 +127,11 @@
                              data-speed="1200"
                              data-start="5200"
                              data-easing="easeOutQuint"  >
-                            <img src="images/slider/1-l8.png" alt="Image 13">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l8.png" alt="Image 13">
                         </div>
                     </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="images/slider/2-bg.jpg" alt="2-bg" >
+                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-bg.jpg" alt="2-bg" >
 
                     <div class="tp-caption main_title lfr"
                          data-x="0"
@@ -159,7 +159,7 @@
                          data-speed="1200"
                          data-start="3300"
                          data-easing="easeOutQuint"  >
-                        <a href="http://www.themeforest.net/item/pink-rio-responsive-multipurpose-theme/3091259"  class="btn btn-xlarge  btn-mfast-3 ">Purchase the theme</a>
+                        <a href="<?php bloginfo ('template_directory'); ?>/http://www.themeforest.net/item/pink-rio-responsive-multipurpose-theme/3091259"  class="btn btn-xlarge  btn-mfast-3 ">Purchase the theme</a>
                     </div>
 
                     <div class="tp-caption lft"
@@ -168,7 +168,7 @@
                          data-speed="1000"
                          data-start="1600"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/2-l1.png" alt="Image 4">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l1.png" alt="Image 4">
                     </div>
 
                     <div class="tp-caption lfb"
@@ -177,7 +177,7 @@
                          data-speed="900"
                          data-start="2000"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/2-l2.png" alt="Image 5">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l2.png" alt="Image 5">
                     </div>
 
                     <div class="tp-caption lfl"
@@ -186,11 +186,11 @@
                          data-speed="900"
                          data-start="2400"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/2-l3.png" alt="Image 6">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l3.png" alt="Image 6">
                     </div>
                 </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="images/slider/3-bg.jpg" alt="3-bg" >
+                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-bg.jpg" alt="3-bg" >
 
                     <div class="tp-caption paragraph sft"
                          data-x="0"
@@ -315,7 +315,7 @@
                          data-speed="1000"
                          data-start="4200"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/3-l3.png" alt="Image 14">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l3.png" alt="Image 14">
                     </div>
 
                     <div class="tp-caption lfr"
@@ -324,7 +324,7 @@
                          data-speed="1000"
                          data-start="4500"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/3-l1.png" alt="Image 15">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l1.png" alt="Image 15">
                     </div>
 
                     <div class="tp-caption lfb"
@@ -333,7 +333,7 @@
                          data-speed="1500"
                          data-start="5000"
                          data-easing="easeOutQuint"  >
-                        <img src="images/slider/3-l2.png" alt="Image 16">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l2.png" alt="Image 16">
                     </div>
                 </li>
                 </ul>
