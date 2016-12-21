@@ -1,7 +1,3 @@
-
-<?php get_header( $name ); ?>
-
-
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" class="ie"lang="en-US">
@@ -32,30 +28,30 @@
     <title>Celestino | only for creative minds.</title>
 
     <!-- RESET STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/bootstrap.css" />
     <!-- MAIN THEME STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/style.css" />
 
-    <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
-    <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='tipsy-css'  href='css/tipsy.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-css'  href='<?php bloginfo ('template_directory'); ?>/css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-css'  href='<?php bloginfo ('template_directory'); ?>/http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
+    <link rel='stylesheet' id='responsive-css'  href='<?php bloginfo ('template_directory'); ?>/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='thickbox-css'  href='<?php bloginfo ('template_directory'); ?>/js/thickbox/thickbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='tipsy-css'  href='<?php bloginfo ('template_directory'); ?>/css/tipsy.css' type='text/css' media='all' />
 
-    <link rel='stylesheet' id='fonts-css'  href='css/font-awesome.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='full-descriptor-css'  href='portfolios/full-description/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='slide-details-css'  href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='fonts-css'  href='<?php bloginfo ('template_directory'); ?>/css/font-awesome.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='full-descriptor-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/full-description/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='slide-details-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/slide-detail/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='shortcode-css'  href='<?php bloginfo ('template_directory'); ?>/css/shortcodes.css' type='text/css' media='all' />
 
-    <link rel='stylesheet' id='colorbox-css'  href='css/colorbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-button-mfast-3-css'  href='css/buttons/mfast-3.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-css'  href='sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-settings-css'  href='sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-captions-css'  href='sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='colorbox-css'  href='<?php bloginfo ('template_directory'); ?>/css/colorbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-button-mfast-3-css'  href='<?php bloginfo ('template_directory'); ?>/css/buttons/mfast-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-elegant-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
 
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -74,7 +70,7 @@
 
 
 
-    <script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.js'></script>
 </head>
 <!-- END HEAD -->
 
@@ -159,7 +155,7 @@
                     <!-- START LOGO -->
                     <div id="logo" class="span4 group">
                         <a id="logo-img" href="index.html" title="celestino">
-                            <img src="images/celestino1.png" title="celestino" alt="celestino" />
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/celestino1.png" title="celestino" alt="celestino" />
                         </a>
 
                         <p id="tagline">only for creative minds.</p>
@@ -1560,7 +1556,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="images/25.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/25.jpg" alt="" width="52" height="52" />
                 <p>Freelance projects</p>
                 <span class="number">65</span>
             </div>
@@ -1568,7 +1564,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="images/31.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/31.jpg" alt="" width="52" height="52" />
                 <p>sales on themeforest</p>
                 <span class="number">12.845</span>
             </div>
@@ -1576,7 +1572,7 @@
 
         <div class="one-fourth last">
             <div class="random-numbers">
-                <img src="images/41.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/41.jpg" alt="" width="52" height="52" />
                 <p>...Weekly Coffee!</p>
                 <span class="number">36</span>
             </div>
@@ -1748,23 +1744,20 @@
 
 <!-- END CUSTOM SCRIPT -->
 
-<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
-<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='js/jquery.tweetable.js'></script>
-<script type='text/javascript' src='js/jquery.superfish.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.plugins.min.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.revolution.js'></script>
-<script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>
-<script type='text/javascript' src='js/jquery.tipsy.js'></script>
-<script type='text/javascript' src='js/responsive.js'></script>
-<script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
-<script type='text/javascript' src='js/shortcodes.js'></script>
-<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
-<script type='text/javascript' src='js/jquery.custom.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tweetable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.superfish.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.plugins.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.revolution.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/portfolios/filterable/js/jquery.filterable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tipsy.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/responsive.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.mobilemenu.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/shortcodes.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
 
 </body>
 <!-- END BODY -->
 </html>
-
-
-<?php get_footer( $name ); ?>
