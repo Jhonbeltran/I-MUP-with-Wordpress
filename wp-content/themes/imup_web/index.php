@@ -637,7 +637,7 @@
                             <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
                         <a href="portfolios/portfolio-detail/?cpt_item=digitpool-medien" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -656,7 +656,7 @@
                         <div class="work-thumbnail span6">
                             <div class="thumb-wrapper">
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0043-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="004" />
+                                    <img width="574" height="340" src="images/portfolios/0043-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="004" />
                                 </a>
                             </div>
                         </div>
@@ -685,15 +685,15 @@
 
         <li  class="filterable_item span3 brandidentity  webdesign  first">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/00511-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00511-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/0051.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/0051.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=colorful-oktopus" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" /></a>									</div>
+                        <a href="portfolios/portfolio-detail/?cpt_item=colorful-oktopus" class="open_slide">
+                            <img src="images/icons/project.png" alt="" /></a>									</div>
 
 
                     <div class="ch-info-text">
@@ -712,7 +712,7 @@
 
 
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0054-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="005" />
+                                    <img width="574" height="340" src="images/portfolios/0054-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="005" />
                                 </a>
                             </div>
                         </div>
@@ -741,15 +741,15 @@
 
         <li  class="filterable_item span3 brandidentity  webdesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/0072-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0072-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/0071.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/0071.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=kimeda" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=kimeda" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -767,7 +767,7 @@
                         <div class="work-thumbnail span6">
                             <div class="thumb-wrapper">
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0072-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="007" />
+                                    <img width="574" height="340" src="images/portfolios/0072-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="007" />
                                 </a>
                             </div>
                         </div>
@@ -799,15 +799,15 @@
 
         <li  class="filterable_item span3 brandidentity  logodesign  webdesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/piggie88-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/piggie88-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/piggie88-574x340.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/piggie88-574x340.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=piggy" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=piggy" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -827,7 +827,7 @@
 
 
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/piggie88-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="008" />
+                                    <img width="574" height="340" src="images/portfolios/piggie88-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="008" />
                                 </a>
                             </div>
                         </div>
@@ -858,15 +858,15 @@
 
         <li  class="last filterable_item span3 logodesign">
 
-            <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/0098-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0098-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/009.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/009.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=guanacos" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=guanacos" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -885,7 +885,7 @@
                         <div class="work-thumbnail span6">
                             <div class="thumb-wrapper">
                                 <a class="thumb">
-                                    <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0091-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
+                                    <img width="574" height="340" src="images/portfolios/0091-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
                                 </a>
                             </div>
                         </div>
