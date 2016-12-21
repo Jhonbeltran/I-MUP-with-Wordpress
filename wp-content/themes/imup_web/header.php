@@ -55,5 +55,20 @@
 
 
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
+
+    <div id="text-8" class=" widget-last span6 widget widget_text">
+        <div class="textwidget">
+            <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
+
+            <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
+
+            <a href="#" class="socials-small twitter-small" title="Twitter"  >twitter</a>
+
+            <a href="#" class="socials-small google-small" title="Google"  >google</a>
+
+            <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
+
+            <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
+    </div>
 </head>
 <!-- END HEAD -->
