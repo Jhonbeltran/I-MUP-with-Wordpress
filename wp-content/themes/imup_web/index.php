@@ -1028,7 +1028,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="images/110.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/110.jpg" alt="" width="52" height="52" />
                 <p>satisfied customers</p>
                 <span class="number">1590</span>
             </div>
@@ -1036,7 +1036,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="images/25.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/25.jpg" alt="" width="52" height="52" />
                 <p>Freelance projects</p>
                 <span class="number">65</span>
             </div>
@@ -1044,7 +1044,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="images/31.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/31.jpg" alt="" width="52" height="52" />
                 <p>sales on themeforest</p>
                 <span class="number">12.845</span>
             </div>
@@ -1052,7 +1052,7 @@
 
         <div class="one-fourth last">
             <div class="random-numbers">
-                <img src="images/41.jpg" alt="" width="52" height="52" />
+                <img src="<?php bloginfo ('template_directory'); ?>/images/41.jpg" alt="" width="52" height="52" />
                 <p>...Weekly Coffee!</p>
                 <span class="number">36</span>
             </div>
