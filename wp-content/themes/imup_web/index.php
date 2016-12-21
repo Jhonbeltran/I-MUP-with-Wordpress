@@ -1063,7 +1063,7 @@
 </div>
 <!-- END PRIMARY -->
 
-<?php get_header(); ?>
+
 
 <!-- START CUSTOM SCRIPT -->
 
@@ -1083,6 +1083,7 @@
 <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
 <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
 
+<?php get_footer(); ?>
 </body>
 <!-- END BODY -->
 </html>
