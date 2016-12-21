@@ -12,11 +12,11 @@
          <?php bloginfo('name'); ?></a>
     </h1>
     <!-- RESET STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/bootstrap.css" />
     <!-- MAIN THEME STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/style.css" />
 
     <link rel='stylesheet' id='custom-css'  href='<?php bloginfo ('template_directory'); ?>/css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-css'  href='<?php bloginfo ('template_directory'); ?>http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
@@ -54,7 +54,7 @@
 
 
 
-    <script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.js'></script>
 
     <div id="text-8" class=" widget-last span6 widget widget_text">
         <div class="textwidget">
