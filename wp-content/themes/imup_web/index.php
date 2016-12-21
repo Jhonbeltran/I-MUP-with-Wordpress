@@ -18,14 +18,7 @@
 <html lang="en-US">
 <![endif]-->
 
-<?php get_header(); ?>
-
-<!-- START BODY -->
-
-<!-- END TOP BAR -->
-
-<!-- START HEADER -->
-
+<!-- START HEAD -->
 <!-- END HEADER -->
 
 <!-- START SLIDER -->
@@ -1072,3 +1065,9 @@
     </div>
 </div>
 <!-- END PRIMARY -->
+
+
+
+</body>
+<!-- END BODY -->
+</html>
