@@ -21,60 +21,6 @@
 <?php get_header(); ?>
 
 <!-- START BODY -->
-<body class="home page no_js responsive stretched">
-
-<!-- START BG SHADOW -->
-<div class="bg-shadow">
-
-<!-- START WRAPPER -->
-<div id="wrapper" class="container group">
-<!-- START TOP BAR -->
-
-<!-- START TOP BAR -->
-<div id="topbar">
-    <div class="container">
-        <div class="row">
-            <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-                <h3>Last Tweets</h3>
-                <div class="list-tweets-3"></div>
-
-                <script type="text/javascript">
-                    jQuery(function($){
-                        $('#last-tweets-3 .list-tweets-3').tweetable({
-                            listClass: 'tweets-widget-3',
-                            username: 'YIW',
-                            time: false,
-                            limit: 3,
-                            replies: false
-                        });
-                    });
-                </script>
-
-            </div>
-
-
-        </div>
-    </div>
-</div>
-
-<script>
-    jQuery(function($){
-        var twitterSlider = function(){
-            $('#topbar .last-tweets ul').addClass('slides');
-            $('#topbar .last-tweets').flexslider({
-                animation: "fade",
-                slideshowSpeed: 5 * 1000,
-                animationDuration: 700,
-                directionNav: false,
-                controlNav: false,
-                keyboardNav: false
-            });
-        };
-        $('#topbar .last-tweets > div').bind('tweetable_loaded', function(){
-            twitterSlider();
-        });
-    });
-</script>
 
 <!-- END TOP BAR -->
 
