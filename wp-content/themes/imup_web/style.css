@@ -167,7 +167,7 @@ max-width: 60%;
 
 /* === LOGO */
 #logo {
-	margin-top: 30px;
+
     float: left;
 }
 #logo-img, #textual { float: left; max-width:100%; }
