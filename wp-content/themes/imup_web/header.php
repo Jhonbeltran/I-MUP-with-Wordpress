@@ -89,7 +89,7 @@
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
 
-              <a href="# " class="fa fa-camera-retro fa-lg" title="Facebook"  >facebook</a>
+              <a href="# " class="fa fa-map-marker-2x" title="Facebook"  >facebook</a>
 
             </div>
 
