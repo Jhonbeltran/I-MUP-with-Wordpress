@@ -50,7 +50,7 @@
     <link rel='stylesheet' id='rs-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
-
+    <link rel="stylesheet" href="http://icono-49d6.kxcdn.com/icono.min.css">
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -87,7 +87,8 @@
     <div class="container">
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-              <h6> 8701046 </h6>
+            <style>
+    .icono-hamburger{color: #BF3C4A;}</style>  <h6> 8701046 </h6>
 
             </div>
 
