@@ -88,7 +88,8 @@
     <div class="container">
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-  <i class="fa fa-shield"></i> normal<br>
+
+  <a href="#" class="fa fa-shield" >normal</a>
 
             </div>
 
