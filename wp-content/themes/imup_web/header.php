@@ -89,7 +89,7 @@
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
             23232  <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
-            2312313  <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
+            2312313  <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>21312312
 
             </div>
 
