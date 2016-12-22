@@ -129,7 +129,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #C86F06; }
 	#topbar a:hover { color: #AB5705 }
 
 	#topbar .last-tweets > h3 + div { height: 33px; margin: 0; padding-left: 30px; background: url('images/icons/last_tweets.png') no-repeat left center }
-	#topbar .last-tweets p { margin-top: 6px; padding-bottom: 1px; line-height: 22px; color:white;}
+	#topbar .last-tweets p { margin-top: 6px; padding-bottom: 1px; line-height: 22px; }
 	#topbar .last-tweets p.meta{ display: inline; }
 
 	#topbar .widget-last > div { float: right; margin-right: 10px; padding-top: 6px }
@@ -138,6 +138,9 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #C86F06; }
 
 
 /* ===== HEADER ===== */
+#last-tweets-3{
+  color:white;
+}
 #header {
     position: relative;
     margin-bottom:21px;
