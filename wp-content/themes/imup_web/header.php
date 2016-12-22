@@ -50,7 +50,7 @@
     <link rel='stylesheet' id='rs-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel= 'stylesheet' href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
