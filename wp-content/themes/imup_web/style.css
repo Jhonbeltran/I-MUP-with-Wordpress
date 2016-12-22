@@ -137,10 +137,15 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #C86F06; }
 
 
 
-/* ===== HEADER ===== */
+/* ===== imup ===== */
 #last-tweets-3{
   color:white;
 }
+
+#logo{
+max-width: 60%;
+}
+  /* ===== HEADER ===== */
 #header {
     position: relative;
     margin-bottom:21px;
