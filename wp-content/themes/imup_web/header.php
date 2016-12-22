@@ -86,7 +86,12 @@
 <div id="topbar">
     <div class="container">
         <div class="row">
+            <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
+              <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
+              <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
+
+            </div>
 
             <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
@@ -106,9 +111,6 @@
     </div>
 </div>
 
-<a href="#" class="socials-small google-small" title="Google"  >google</a>
-
-<a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a
 
 <!-- END TOP BAR -->
 
