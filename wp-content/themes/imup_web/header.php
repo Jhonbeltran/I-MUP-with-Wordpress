@@ -89,7 +89,7 @@
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
 
-              <i class="fa fa-map-marker" aria-hidden="true"> Calle 17 #841 Local 103 </i>
+              <i class="fa fa-map-marker fa-2x" aria-hidden="true"> Calle 17 #841 Local 103 </i>
 
             </div>
 
