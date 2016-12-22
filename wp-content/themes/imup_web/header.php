@@ -87,8 +87,8 @@
     <div class="container">
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-              <h6> 870104 </h6>
-                  <p> 870104 </p>
+              <h6> 8701046 </h6>
+
             </div>
 
             <div id="text-8" class=" widget-last span6 widget widget_text">
