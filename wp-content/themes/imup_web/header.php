@@ -125,10 +125,8 @@
                     <!-- START LOGO -->
                     <div id="logo" class="span4 group">
                         <a id="logo-img" href="index.html" title="celestino">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/celestino1.png" title="celestino" alt="celestino" />
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/logo.png" title="celestino" alt="celestino" />
                         </a>
-
-                        <p id="tagline">only for creative minds.</p>
                     </div>
                     <!-- END LOGO -->
                     <div id="menu" class="span8 group">
