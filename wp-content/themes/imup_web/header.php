@@ -86,7 +86,7 @@
 <div id="topbar">
     <div class="container">
         <div class="row">
-            
+
 
             <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
@@ -106,24 +106,6 @@
     </div>
 </div>
 
-<script>
-    jQuery(function($){
-        var twitterSlider = function(){
-            $('#topbar .last-tweets ul').addClass('slides');
-            $('#topbar .last-tweets').flexslider({
-                animation: "fade",
-                slideshowSpeed: 5 * 1000,
-                animationDuration: 700,
-                directionNav: false,
-                controlNav: false,
-                keyboardNav: false
-            });
-        };
-        $('#topbar .last-tweets > div').bind('tweetable_loaded', function(){
-            twitterSlider();
-        });
-    });
-</script>
 
 <!-- END TOP BAR -->
 
