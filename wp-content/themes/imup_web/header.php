@@ -106,6 +106,9 @@
     </div>
 </div>
 
+<a href="#" class="socials-small google-small" title="Google"  >google</a>
+
+<a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a
 
 <!-- END TOP BAR -->
 
