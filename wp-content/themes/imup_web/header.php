@@ -89,7 +89,7 @@
         <div class="row">
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
 
-  <a href="#" class="fa fa-shield" ></a>
+  <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
             </div>
 
