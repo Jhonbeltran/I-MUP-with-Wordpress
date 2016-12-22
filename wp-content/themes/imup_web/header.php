@@ -25,6 +25,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
     <title><?php get_bloginfo( 'name' ); ?> <?php get_bloginfo( 'description' ); ?></title>
+    <h1><?php bloginfo( 'name' ); ?></h1>
+
 
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
