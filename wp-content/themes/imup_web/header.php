@@ -87,6 +87,7 @@
     <div class="container">
         <div class="row">
             
+
             <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
                     <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
