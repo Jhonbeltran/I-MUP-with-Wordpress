@@ -90,8 +90,8 @@
             <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
 
 
-<div class="fa fa-map-marker" aria-hidden="true">Calle 17 #841 Local 103</div>
-<div class="fa fa-phone" aria-hidden="true">870104</div>
+<div class="fa fa-map-marker" aria-hidden="true"> Calle 17 #841 Local 103</div>
+<div class="fa fa-phone" aria-hidden="true"> 870104</div>
             </div>
 
             <div id="text-8" class=" widget-last span6 widget widget_text">
