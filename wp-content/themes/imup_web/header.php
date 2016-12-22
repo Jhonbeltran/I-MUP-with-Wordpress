@@ -86,8 +86,8 @@
 <div id="topbar">
     <div class="container">
         <div class="row">
-            <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-              <a href="# " class="socials-small facebook-small" title="Facebook"  >8827129</a> 
+            <div id="last-tweets-3">
+              <a href="# " class="socials-small facebook-small" title="Facebook"  >8827129</a>
 
               <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
 
