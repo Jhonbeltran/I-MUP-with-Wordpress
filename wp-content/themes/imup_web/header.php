@@ -24,7 +24,7 @@
     <!-- this line will appear only if the website is visited with an iPad -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
-    <title><?php bloginfo( 'name' ); ?> <?php bloginfo( 'description' ); ?></title>
+    <title><?php bloginfo( 'name' ); ?>|<?php bloginfo( 'description' ); ?></title>
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
@@ -86,24 +86,7 @@
 <div id="topbar">
     <div class="container">
         <div class="row">
-            <div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-                <h3>Last Tweets</h3>
-                <div class="list-tweets-3"></div>
-
-                <script type="text/javascript">
-                    jQuery(function($){
-                        $('#last-tweets-3 .list-tweets-3').tweetable({
-                            listClass: 'tweets-widget-3',
-                            username: 'YIW',
-                            time: false,
-                            limit: 3,
-                            replies: false
-                        });
-                    });
-                </script>
-
-            </div>
-
+            
             <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
                     <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
