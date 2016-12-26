@@ -530,7 +530,6 @@
             							'menu_class'      => '',
             							'menu_id'         => '',
             							'items_wrap'      => '%3$s',
-            							'walker'          => new MTL_Extended_Menu_Walker(),
             							'fallback_cb'     => 'MTL_Extended_Menu_Walker::fallback',
             						) );
             						?>
