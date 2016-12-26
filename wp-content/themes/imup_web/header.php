@@ -133,48 +133,18 @@
                         <!-- START MAIN NAVIGATION -->
                         <div class="menu">
                             <ul id="nav" class="sf-menu">
-                                <li class="nav-icon-hi current_page_item">
-                                    <a href="index.html">
-                                        Home
-                                        <div style="position:absolute; left: 50%;">
-                                            <span class="triangle">&nbsp;</span>
-                                        </div>
-                                    </a>
-
-                                <li class="nav-icon-monitor">
-                                    <a href="#">
-                                        Sliders
-                                        <div style="position:absolute; left: 50%;">
-                                            <span class="triangle">&nbsp;</span>
-                                        </div>
-                                    </a>
-
-                                <li class="nav-icon-doc">
-                                    <a href="#">
-                                        Pages
-                                        <div style="position:absolute; left: 50%;">
-                                            <span class="triangle">&nbsp;</span>
-                                        </div>
-                                    </a>
-
-                                <li class="nav-icon-newspaper">
-                                    <a href="#">
-                                        Blog
-                                        <div style="position:absolute; left: 50%;">
-                                            <span class="triangle">&nbsp;</span>
-                                        </div>
-                                    </a>
-
-                                <li class="nav-icon-lab">
-                                    <a href="#">
-                                        Shortcodes
-                                        <div style="position:absolute; left: 50%;">
-                                            <span class="triangle">&nbsp;</span>
-                                        </div>
-                                    </a>
-
-                                    </ul>
-                                </li> 
+                              <?php
+                      /**
+                       * Displays a navigation menu
+                       * @param array $args Arguments
+                       */
+                       $args = array(
+                           'theme_location' => 'principal',
+                           'container' => 'nav',
+                           'container_id' => 'nav',
+                       );
+                       wp_nav_menu( $args );
+               ?>
                             </ul>
                         </div>
                         <!-- END MAIN NAVIGATION -->
