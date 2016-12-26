@@ -131,9 +131,10 @@
                     <!-- END LOGO -->
                     <div id="menu" class="span8 group">
                       <!-- START MAIN NAVIGATION -->
-                        <!--
+
                       <div class="menu">
                           <ul id="nav" class="sf-menu">
+                                  <!--
                               <li class="nav-icon-hi current_page_item">
                                   <a href="index.html">
                                       Home
@@ -516,23 +517,24 @@
                                       </li>
                                   </ul>
                               </li>
-
+      -->
+      <?php
+      wp_nav_menu( array(
+        'theme_location'  => 'primary',
+        'menu'            => '',
+        'container'       => '',
+        'container_class' => '',
+        'container_id'    => '',
+        'menu_class'      => '',
+        'menu_id'         => '',
+        'items_wrap'      => '%3$s',
+        'fallback_cb'     => 'MTL_Extended_Menu_Walker::fallback',
+      ) );
+      ?>
                           </ul>
                       </div>
-                        -->
-                        <?php
-            						wp_nav_menu( array(
-            							'theme_location'  => 'primary',
-            							'menu'            => '',
-            							'container'       => '',
-            							'container_class' => '',
-            							'container_id'    => '',
-            							'menu_class'      => '',
-            							'menu_id'         => '',
-            							'items_wrap'      => '%3$s',
-            							'fallback_cb'     => 'MTL_Extended_Menu_Walker::fallback',
-            						) );
-            						?>
+
+
                       <!-- END MAIN NAVIGATION -->
                     </div>
                 </div>
