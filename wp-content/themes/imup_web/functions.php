@@ -57,6 +57,4 @@ if ( function_exists( 'add_theme_support' ) ) {
     add_action( 'wp_enqueue_scripts', 'misRecursos' );
 ?>
 
-    Contact GitHub API Training Shop Blog About
-
-    © 2016 GitHub, Inc. Terms Privacy Security Status Help
+  
