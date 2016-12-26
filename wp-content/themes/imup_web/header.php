@@ -140,12 +140,12 @@
                        */
                        $args = array(
                            'theme_location' => 'principal',
-                           'container' => 'nav',
-                           'container_id' => 'nav',
+                           'container' => 'menu',
+                           'container_id' => 'menu',
                        );
                        wp_nav_menu( $args );
                ?>
-                        
+
                         </div>
                         <!-- END MAIN NAVIGATION -->
                     </div>
