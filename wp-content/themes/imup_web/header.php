@@ -131,9 +131,9 @@
                     <!-- END LOGO -->
                     <div id="menu" class="span8 group">
                         <!-- START MAIN NAVIGATION -->
-                        <div class="menu">
+
+                          <!--
                             <ul id="nav" class="sf-menu">
-<!--
                                 <li class="nav-icon-hi current_page_item">
                                     <a href="index.html">
                                         Home
@@ -175,31 +175,22 @@
                                     </a>
 
                                     </ul>
-                                </li> -->
-
-
-
-
-                  <?php
-                         /**
-                          * Displays a navigation menu
-                          * @param array $args Arguments
-                          */
-                          $args = array(
-                              'theme_location' => 'principal',
-                              'container' => 'nav',
-                              'container_id' => 'nav',
-                          );
-                          wp_nav_menu( $args );
-                  ?>
-
-
-                          
-
-
-
                             </ul>
-                        </div>
+                            </li> -->
+
+                            <?php
+                                   /**
+                                    * Displays a navigation menu
+                                    * @param array $args Arguments
+                                    */
+                                    $args = array(
+                                        'theme_location' => 'principal',
+                                        'container' => 'nav',
+                                        'container_id' => 'nav',
+                                    );
+                                    wp_nav_menu( $args );
+                            ?>
+                  
                         <!-- END MAIN NAVIGATION -->
                     </div>
                 </div>
