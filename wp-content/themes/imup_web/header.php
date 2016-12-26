@@ -132,7 +132,7 @@
                     <div id="menu" class="span8 group">
                         <!-- START MAIN NAVIGATION -->
                         <div class="menu">
-                            <ul id="nav" class="sf-menu">
+
                               <?php
                       /**
                        * Displays a navigation menu
@@ -145,7 +145,7 @@
                        );
                        wp_nav_menu( $args );
                ?>
-                            </ul>
+                        
                         </div>
                         <!-- END MAIN NAVIGATION -->
                     </div>
