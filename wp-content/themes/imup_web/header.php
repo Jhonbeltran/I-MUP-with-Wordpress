@@ -140,6 +140,75 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+                                  <!--
+                                  <ul class="sub-menu">
+                                      <li class="nav-icon-open-small">
+                                          <a href="home-ii.html">
+                                              Home Version II
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-folder-small">
+                                          <a href="home-iii.html">
+                                              Home Version III
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-target-small">
+                                          <a href="home-iv.html">
+                                              Home Version IV
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-design-small">
+                                          <a href="home-v.html">
+                                              Home Version V
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-cert-small">
+                                          <a href="home-vi.html">
+                                              Home Version VI (Grid slider)
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-book-small">
+                                          <a href="home-vii.html">
+                                              Home Version VII
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-cake-small">
+                                          <a href="home-viii.html">
+                                              Home Version VIII
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="nav-icon-bulb-small ">
+                                          <a href="home-ix.html">
+                                              Home version IX (Blog)
+                                              <div style="position:absolute; left: 50%;">
+                                                  <span class="triangle">&nbsp;</span>
+                                              </div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              -->
                               <li class="nav-icon-monitor">
                                   <a href="#">
                                       Sliders
@@ -147,6 +216,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+                                  <!--
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="revolution-slider.html">
@@ -212,6 +282,7 @@
                                       </li>
                                   </ul>
                               </li>
+                            -->
                               <li class="nav-icon-doc">
                                   <a href="#">
                                       Pages
@@ -219,6 +290,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+                                  <!--
                                   <ul class="sub-menu">
                                       <li class="nav-icon-team-small ">
                                           <a href="pages-about.html">
@@ -254,6 +326,7 @@
                                       </li>
                                   </ul>
                               </li>
+                            -->
                               <li class="nav-icon-works">
                                   <a href="#">
                                       Portfolio
@@ -261,6 +334,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+                                  <!--
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="portfolio-pinterest-style.html">
@@ -336,6 +410,7 @@
                                       </li>
                                   </ul>
                               </li>
+                            -->
                               <li class="nav-icon-newspaper">
                                   <a href="#">
                                       Blog
@@ -343,6 +418,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+                                  <!--
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="blog-big-image.html">
@@ -378,6 +454,7 @@
                                       </li>
                                   </ul>
                               </li>
+                            -->
                               <li class="nav-icon-lab">
                                   <a href="#">
                                       Shortcodes
@@ -385,6 +462,8 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
+
+                                  <!--
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="sc-typography.html">
@@ -436,6 +515,7 @@
                                       </li>
                                   </ul>
                               </li>
+                            -->
                           </ul>
                       </div>
                       <!-- END MAIN NAVIGATION -->
