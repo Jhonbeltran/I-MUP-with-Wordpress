@@ -133,8 +133,9 @@
                       <!-- START MAIN NAVIGATION -->
 
                       <div class="menu">
+                          <span class="triangle">&nbsp;</span>
                           <ul id="nav" class="sf-menu">
-                              <span class="triangle">&nbsp;</span>
+
                                   <!--
                               <li class="nav-icon-hi current_page_item">
                                   <a href="index.html">
