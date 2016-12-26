@@ -520,6 +520,20 @@
                           </ul>
                       </div>
                         -->
+                        <?php
+            						wp_nav_menu( array(
+            							'theme_location'  => 'primary',
+            							'menu'            => '',
+            							'container'       => '',
+            							'container_class' => '',
+            							'container_id'    => '',
+            							'menu_class'      => '',
+            							'menu_id'         => '',
+            							'items_wrap'      => '%3$s',
+            							'walker'          => new MTL_Extended_Menu_Walker(),
+            							'fallback_cb'     => 'MTL_Extended_Menu_Walker::fallback',
+            						) );
+            						?>
                       <!-- END MAIN NAVIGATION -->
                     </div>
                 </div>

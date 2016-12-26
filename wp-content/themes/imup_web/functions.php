@@ -1,6 +1,7 @@
 <?php
-function register_my_menu() {
-  register_nav_menu('new-menu',__( 'New Menu' ));
-}
-add_action( 'init', 'register_my_menu' );
+register_nav_menus( array(
+  'primary'   => esc_html__( 'Primary Menu', 'regina-lite' ),
+  'secondary' => esc_html__( 'Secondary Menu', 'regina-lite' ),
+) );
+
  ?>
