@@ -124,7 +124,7 @@
                 <div class="row">
                     <!-- START LOGO -->
                     <div id="logo" class="span4 group">
-                        <a id="logo-img" href="index.html" title="celestino">
+                        <a id="logo-img" href="<?php home_url();  ?>" title="celestino">
                             <img src="<?php bloginfo ('template_directory'); ?>/images/logo.png" title="celestino" alt="celestino" />
                         </a>
                     </div>
@@ -172,7 +172,7 @@
                                             <span class="triangle">&nbsp;</span>
                                         </div>
                                     </a>
-                                    
+
                                     </ul>
                                 </li>
                             </ul>
