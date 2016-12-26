@@ -1,2 +1,125 @@
------------------- VER 1.0 ---------------
+------------------ VER 1.7.6 - Oct 27, 2015 ---------------
+Added: WordPress 4.3 support
+Fixed: Double menu issue
+
+ADDED
+
+buy-premium.php
+core/assets/images/buy-premium.png
+core/assets/images/dismiss.png
+core/assets/images/premium/add-to-cart.png
+core/assets/images/premium/buy-now.png
+core/assets/images/premium/celestino.png
+core/assets/images/premium/checkout_multistep.jpg
+core/assets/images/premium/contact-pinkrio.jpg
+core/assets/images/premium/cufon.jpg
+core/assets/images/premium/customwidget.jpg
+core/assets/images/premium/enquiry_form.jpg
+core/assets/images/premium/faq.jpg
+core/assets/images/premium/forum.jpg
+core/assets/images/premium/grid_list.jpg
+core/assets/images/premium/import_settings.jpg
+core/assets/images/premium/live-preview.png
+core/assets/images/premium/memento-portfolio.jpg
+core/assets/images/premium/popup.jpg
+core/assets/images/premium/shortcodes-pinkrio.jpg
+core/assets/images/premium/slider-pinkrio.jpg
+core/assets/images/premium/themeoptions-pinkrio.jpg
+core/assets/images/premium/unlimited_colors.jpg
+core/assets/images/premium/video-pinkrio.jpg
+core/assets/images/premium/videotutorials.jpg
+
+DELETED
+
+Purchase-Now.url
+core/assets/images/premium/add-to-cart.jpg
+core/assets/images/premium/live-preview.jpg
+core/assets/images/premium/buy-now.jpg
+
+UPDATED
+
+ChangeLog.txt
+core/widgets/almost_all_categories.php
+core/widgets/contact_info.php
+core/widgets/last_tweets.php
+core/widgets/testimonials.php
+core/yit/Dashboard.php
+core/templates/admin/panel/premium.php
+core/functions-core.php
+core/yit/CPT_Unlimited.php
+core/yit/Css.php
+core/yit/Font.php
+core/yit/Shortcodes.php
+theme/functions-template.php
+theme/widgets/testimonials.php
+theme/hooks.php
+theme/shortcodes.php
+theme/templates/header/head.php
+theme/widgets.php
+
+------------------ VER 1.7.3 - Feb 02, 2015 ---------------
+Added: Support to WP 4.1
+
+UPDATED
+
+ChangeLog.txt
+style.css
+languages/*.*
+
+
+
+------------------ VER 1.7.2 - Oct 21, 2014 ---------------
+Added: Support to WP 4.0
+
+UPDATED
+
+ChangeLog.txt
+Purchase-Now.url
+style.css
+core/templates/admin/panel/header.php
+core/templates/admin/panel/premium.php
+languages/*.*
+
+------------------ VER 1.7.1 - Feb 06, 2014 ---------------
+Fixed: Varius bug
+
+------------------ VER 1.7.0 - Jan 10, 2014 ---------------
+Added support to WP 3.8
+
+UPDATED
+languages/default.po
+languages/it_IT.mo
+languages/it_IT.po
+languages/ru_RU.mo
+languages/ru_RU.po
+languages/yit.pot
+style.css
+ChangeLog.txt
+core/assets/css/metaboxes.css
+core/assets/css/panel.css
+core/lib/yit/Type/Types/Selecticon.php
+core/yit/CPT_Unlimited.php
+core/yit/Services.php
+core/yit/Testimonial.php
+
+------------------ VER 1.6.2 ---------------
+Fixed: Language files supported also in the child theme
+Fixed: Error with Last tweets widget. Replaced user name with user id
+
+UPDATED:
+
+theme/tr.php
+ChangeLog.txt
+core/widgets/last_tweets.php
+core/load.php
+core/yit/Dashboard.php
+images/dismiss.png
+theme/config.php
+
+
+------------------ VER 1.6.1 ---------------
+Added: support with Wordpress 3.6
+Fixed: Last tweets widget, error on multiple lines
+
+------------------ VER 1.6.0 ---------------
 Initial Release

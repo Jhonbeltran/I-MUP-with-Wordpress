@@ -8,6 +8,14 @@ if(typeof(console) === 'undefined') {
     console.log = console.error = console.info = console.debug = console.warn = console.trace = console.dir = console.dirxml = console.group = console.groupEnd = console.time = console.timeEnd = console.assert = console.profile = function() {};
 }
 
+//emulate jquery live to preserve jQuery.live() call
+if( typeof jQuery.fn.live == 'undefined' ) {
+    jQuery.fn.live = function( types, data, fn ) {
+        jQuery( this.context ).on( types, this.selector, data, fn );
+        return this;
+    };
+}
+
 (function($) {          
 jQuery( document ).ready( function( $ ) {
 	$('body').removeClass('no_js').addClass('yes_js');
@@ -90,13 +98,13 @@ jQuery( document ).ready( function( $ ) {
 			var main_container_width = $('body').width();
 			var parent = $(this).parents('ul.sf-menu > li');
 			var megamenu = $(this);
-
+			
 			var width_megamenu = megamenu.outerWidth();
 			var position_megamenu = megamenu.offset();
-			var position_parent = parent.length > 0 && parent.position().left != undefined ? parent.position().left : 0;
+			var position_parent = parent.position().left != undefined ? parent.position().left : 0;
 			var position_right_megamenu = level <= 1 ? position_parent + width_megamenu : position_parent + width_megamenu + 800;
 			
-			var offset_parent = parent.length > 0 ? parent.offset().left : 0;
+			var offset_parent = parent.offset().left;
 
 			//console.log(parent, position_parent, position_right_megamenu, position_right_megamenu > main_container_width)
 			if ( position_right_megamenu > main_container_width ) {
@@ -342,6 +350,28 @@ jQuery( document ).ready( function( $ ) {
     	});
     });
     //}
+
+    // hide #back-top first
+    $("#back-top").hide();
+
+    // fade in #back-top
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+
+        // scroll body to 0px on click
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
 
 
 
