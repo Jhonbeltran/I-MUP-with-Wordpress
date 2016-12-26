@@ -131,6 +131,7 @@
                     <!-- END LOGO -->
                     <div id="menu" class="span8 group">
                       <!-- START MAIN NAVIGATION -->
+                        <!--
                       <div class="menu">
                           <ul id="nav" class="sf-menu">
                               <li class="nav-icon-hi current_page_item">
@@ -140,7 +141,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li class="nav-icon-open-small">
                                           <a href="home-ii.html">
@@ -208,7 +209,7 @@
                                       </li>
                                   </ul>
                               </li>
-                              -->
+
                               <li class="nav-icon-monitor">
                                   <a href="#">
                                       Sliders
@@ -216,7 +217,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="revolution-slider.html">
@@ -282,7 +283,7 @@
                                       </li>
                                   </ul>
                               </li>
-                            -->
+
                               <li class="nav-icon-doc">
                                   <a href="#">
                                       Pages
@@ -290,7 +291,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li class="nav-icon-team-small ">
                                           <a href="pages-about.html">
@@ -326,7 +327,7 @@
                                       </li>
                                   </ul>
                               </li>
-                            -->
+
                               <li class="nav-icon-works">
                                   <a href="#">
                                       Portfolio
@@ -334,7 +335,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="portfolio-pinterest-style.html">
@@ -410,7 +411,7 @@
                                       </li>
                                   </ul>
                               </li>
-                            -->
+
                               <li class="nav-icon-newspaper">
                                   <a href="#">
                                       Blog
@@ -418,7 +419,7 @@
                                           <span class="triangle">&nbsp;</span>
                                       </div>
                                   </a>
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="blog-big-image.html">
@@ -454,7 +455,7 @@
                                       </li>
                                   </ul>
                               </li>
-                            -->
+
                               <li class="nav-icon-lab">
                                   <a href="#">
                                       Shortcodes
@@ -463,7 +464,7 @@
                                       </div>
                                   </a>
 
-                                  <!--
+
                                   <ul class="sub-menu">
                                       <li>
                                           <a href="sc-typography.html">
@@ -515,9 +516,10 @@
                                       </li>
                                   </ul>
                               </li>
-                            -->
+
                           </ul>
                       </div>
+                        -->
                       <!-- END MAIN NAVIGATION -->
                     </div>
                 </div>
