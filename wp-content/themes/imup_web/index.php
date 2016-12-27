@@ -73,7 +73,7 @@
                              data-speed="1200"
                              data-start="2500"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l2.png" alt="Image 5">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/generando.png" alt="Image 5">
                         </div>
 
                         <div class="tp-caption lft"
