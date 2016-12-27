@@ -131,7 +131,7 @@
                         </div>
                     </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/dos.jpeg" alt="2-bg" >
+                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/tres.jpeg" alt="2-bg" >
 
                     <div class="tp-caption main_title lfr"
                          data-x="0"
