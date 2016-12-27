@@ -64,7 +64,7 @@
                              data-speed="1000"
                              data-start="2100"
                              data-easing="easeOutQuint"  >
-                            Be different. Be creative. Enjoy Celestino.
+                            Sé Diferente,Sé Creativo,Crece con Nosotros.
                         </div>
 
                         <div class="tp-caption lfb"
