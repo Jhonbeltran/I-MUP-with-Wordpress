@@ -82,7 +82,7 @@
                              data-speed="1200"
                              data-start="3000"
                              data-easing="easeOutBounce"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l3.png" alt="Image 8">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/idea.png" alt="Image 8">
                         </div>
 
                         <div class="tp-caption lfr"
