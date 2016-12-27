@@ -131,7 +131,7 @@
                         </div>
                     </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/tres.jpeg" alt="2-bg" >
+                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/dos.jpeg" alt="2-bg" >
 
                     <div class="tp-caption paragraph lfb"
                          data-x="0"
@@ -191,7 +191,7 @@
                     </div>
                 </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-bg.jpg" alt="3-bg" >
+                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/tres.jpeg" alt="3-bg" >
 
                     <div class="tp-caption paragraph sft"
                          data-x="0"
