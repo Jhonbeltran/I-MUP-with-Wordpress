@@ -69,7 +69,7 @@
 
                         <div class="tp-caption lfb"
                              data-x="404"
-                             data-y="303"
+                             data-y="380"
                              data-speed="1200"
                              data-start="2500"
                              data-easing="easeOutQuint"  >
