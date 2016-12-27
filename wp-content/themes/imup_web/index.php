@@ -44,7 +44,7 @@
                              data-speed="1000"
                              data-start="1500"
                              data-easing="easeOutQuint"  >
-                            WELCOME.
+                            Bienvenidos.
                         </div>
 
                         <div class="tp-caption paragraph lfb"
@@ -53,9 +53,9 @@
                              data-speed="1000"
                              data-start="1800"
                              data-easing="easeOutQuint"  >
-                            I’m Celestino, and this is a creative and responsive portfolio theme based on WordPress.
+                            Somos una Agencia de Publicidad que brinda asesoramiento integral y de alta calidad
                             <br />
-                            7 different sliders, unlimited portfolio pages...for a great portfolio & personal site.
+                            para la implentacion de estrategias digitales de empresas en la región Sumapaz.
                         </div>
 
                         <div class="tp-caption paragraph_highlighted lfr"
