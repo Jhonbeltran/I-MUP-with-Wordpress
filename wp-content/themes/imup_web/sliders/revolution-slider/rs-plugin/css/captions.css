@@ -14,6 +14,7 @@
 	border-style: none;
 	background-color:none;
 	letter-spacing: 0;
+	text-shadow: 0.1em 0.1em #333;
 }
 
 .tp-caption.paragraph{
