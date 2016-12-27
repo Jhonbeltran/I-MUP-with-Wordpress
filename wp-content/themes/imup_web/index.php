@@ -30,7 +30,7 @@
                         <img src="<?php bloginfo ('template_directory'); ?>/images/uno.jpeg">
 
                         <div class="tp-caption lfb"
-                             data-x="30"
+                             data-x="20"
                              data-y="13"
                              data-speed="2000"
                              data-start="300"
