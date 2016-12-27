@@ -24,7 +24,7 @@
     <!-- this line will appear only if the website is visited with an iPad -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
-    <title><?php bloginfo( 'name' ); ?>|<?php bloginfo( 'description' ); ?></title>
+    <title><?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?></title>
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
@@ -134,7 +134,7 @@
 
                       <div class="menu">
                           <span class="triangle">&nbsp;</span>
-                          
+
                           <ul id="nav" class="sf-menu">
 
                                   <!--
