@@ -77,8 +77,8 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="587"
-                             data-y="306"
+                             data-x="570"
+                             data-y="290"
                              data-speed="1200"
                              data-start="3000"
                              data-easing="easeOutBounce"  >
