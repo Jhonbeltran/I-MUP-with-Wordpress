@@ -68,8 +68,8 @@
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="494"
-                             data-y="313"
+                             data-x="484"
+                             data-y="303"
                              data-speed="1200"
                              data-start="2500"
                              data-easing="easeOutQuint"  >
@@ -77,8 +77,8 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="550"
-                             data-y="270"
+                             data-x="570"
+                             data-y="290"
                              data-speed="1200"
                              data-start="3000"
                              data-easing="easeOutBounce"  >
