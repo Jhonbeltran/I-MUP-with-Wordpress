@@ -68,7 +68,7 @@
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="484"
+                             data-x="404"
                              data-y="303"
                              data-speed="1200"
                              data-start="2500"
