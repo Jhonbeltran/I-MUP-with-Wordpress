@@ -133,6 +133,15 @@
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                     <img src="<?php bloginfo ('template_directory'); ?>/images/slider/tres.jpeg" alt="2-bg" >
 
+                    <div class="tp-caption paragraph lfb"
+                         data-x="0"
+                         data-y="194"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="easeOutQuint"  >
+                        A powerful 1170 pixel layout for a great and strong layout. <br />
+                        <b>Optimized for minor resolutions and mobile devices.</b>
+                    </div>
                     <div class="tp-caption main_title lfr"
                          data-x="0"
                          data-y="60"
@@ -143,15 +152,7 @@
                         RESPONSIVE
                     </div>
 
-                    <div class="tp-caption paragraph lfb"
-                         data-x="0"
-                         data-y="194"
-                         data-speed="1000"
-                         data-start="700"
-                         data-easing="easeOutQuint"  >
-                        A powerful 1170 pixel layout for a great and strong layout. <br />
-                        <b>Optimized for minor resolutions and mobile devices.</b>
-                    </div>
+
 
                     <div class="tp-caption paragraph lfb"
                          data-x="0"
