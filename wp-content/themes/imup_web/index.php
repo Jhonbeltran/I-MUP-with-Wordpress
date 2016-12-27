@@ -27,7 +27,7 @@
             <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:400px;height:400;">
                 <ul>
                     <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-bg.jpg">
+                        <img src="<?php bloginfo ('template_directory'); ?>/images/uno.jpeg">
 
                         <div class="tp-caption lfb"
                              data-x="30"
@@ -35,7 +35,7 @@
                              data-speed="2000"
                              data-start="300"
                              data-easing="easeOutQuint">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/uno.jpeg" alt="Image1">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l1.png" alt="Image1">
                         </div>
 
                         <div class="tp-caption main_title lft"
