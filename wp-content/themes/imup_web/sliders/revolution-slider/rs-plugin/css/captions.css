@@ -32,6 +32,8 @@
 	border-style: none;
 	background-color:none;
 	letter-spacing: 0;
+	background-color: #00000080;
+	border-radius: 4px;
 }
 
 .tp-caption.paragraph_highlighted{
