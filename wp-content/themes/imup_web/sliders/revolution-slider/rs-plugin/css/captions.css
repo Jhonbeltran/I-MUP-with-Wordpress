@@ -38,7 +38,7 @@
 
 .tp-caption.paragraph_highlighted{
 	position: absolute;
-	color: #A96605;
+	color: #fff;
 	text-shadow: none;
 	font-weight: 400;
 	font-size: 17px;
@@ -51,6 +51,6 @@
 	border-style: none;
 	background-color:none;
 	letter-spacing: 0;
-	background-color: #FF8400;
+	background-color: #14246980;
 	border-radius: 4px;
 }
