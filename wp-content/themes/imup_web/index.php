@@ -35,7 +35,7 @@
                              data-speed="2000"
                              data-start="300"
                              data-easing="easeOutQuint">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l1.png" alt="Image1">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/foto.png" alt="Image1">
                         </div>
 
                         <div class="tp-caption main_title lft"
