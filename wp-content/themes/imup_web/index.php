@@ -109,7 +109,7 @@
                              data-speed="1200"
                              data-start="4200"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l6.png" alt="Image 11">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/video.png" alt="Image 11">
                         </div>
 
                         <div class="tp-caption lfb"
@@ -118,7 +118,7 @@
                              data-speed="1200"
                              data-start="4600"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l7.png" alt="Image 12">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/web.png" alt="Image 12">
                         </div>
 
                         <div class="tp-caption lft"
@@ -127,7 +127,7 @@
                              data-speed="1200"
                              data-start="5200"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l8.png" alt="Image 13">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/grafico.png" alt="Image 13">
                         </div>
                     </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
