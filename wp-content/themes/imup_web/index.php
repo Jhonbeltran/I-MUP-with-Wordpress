@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="938"
+                             data-x="958"
                              data-y="298"
                              data-speed="1200"
                              data-start="5200"
