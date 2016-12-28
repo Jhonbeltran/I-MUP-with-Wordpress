@@ -68,7 +68,7 @@
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="404"
+                             data-x="424"
                              data-y="290"
                              data-speed="1200"
                              data-start="2500"
@@ -77,7 +77,7 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="570"
+                             data-x="590"
                              data-y="290"
                              data-speed="1200"
                              data-start="3000"
@@ -86,7 +86,7 @@
                         </div>
 
                         <div class="tp-caption lfr"
-                             data-x="656"
+                             data-x="676"
                              data-y="290"
                              data-speed="1200"
                              data-start="3400"
@@ -104,7 +104,7 @@
                         </div>
 -->
                         <div class="tp-caption lft"
-                             data-x="858"
+                             data-x="878"
                              data-y="298"
                              data-speed="1200"
                              data-start="4200"
@@ -113,7 +113,7 @@
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="928"
+                             data-x="948"
                              data-y="298"
                              data-speed="1200"
                              data-start="4600"
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="998"
+                             data-x="1008"
                              data-y="298"
                              data-speed="1200"
                              data-start="5200"
