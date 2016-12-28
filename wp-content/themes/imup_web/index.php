@@ -113,7 +113,7 @@
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="888"
+                             data-x="908"
                              data-y="298"
                              data-speed="1200"
                              data-start="4600"
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="9108"
+                             data-x="938"
                              data-y="298"
                              data-speed="1200"
                              data-start="5200"
