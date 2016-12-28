@@ -451,7 +451,7 @@
 
                     <div class="ch-info-text">
                         <p class="title">Bob Miller</p>
-                        <p class="subtitle">Photoshop</p>
+                    
                     </div>
                 </div>
             </div>
