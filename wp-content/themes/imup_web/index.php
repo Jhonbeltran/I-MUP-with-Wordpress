@@ -93,9 +93,16 @@
                              data-easing="easeOutQuint"  >
                             <img src="<?php bloginfo ('template_directory'); ?>/images/slider/basados.png" alt="Image 9">
                         </div>
-
-                      
-
+<!--
+                        <div class="tp-caption lfl"
+                             data-x="786"
+                             data-y="316"
+                             data-speed="1200"
+                             data-start="3800"
+                             data-easing="easeOutQuint"  >
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l5.png" alt="Image 10">
+                        </div>
+-->
                         <div class="tp-caption lft"
                              data-x="858"
                              data-y="298"
