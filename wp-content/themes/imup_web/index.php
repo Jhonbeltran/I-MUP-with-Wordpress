@@ -86,8 +86,8 @@
                         </div>
 
                         <div class="tp-caption lfr"
-                             data-x="676"
-                             data-y="311"
+                             data-x="656"
+                             data-y="301"
                              data-speed="1200"
                              data-start="3400"
                              data-easing="easeOutQuint"  >
