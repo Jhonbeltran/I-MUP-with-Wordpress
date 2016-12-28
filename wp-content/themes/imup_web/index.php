@@ -91,7 +91,7 @@
                              data-speed="1200"
                              data-start="3400"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l4.png" alt="Image 9">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/basados.png" alt="Image 9">
                         </div>
 
                         <div class="tp-caption lfl"
