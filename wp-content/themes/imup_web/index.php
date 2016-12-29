@@ -443,7 +443,7 @@
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>" rel="lightbox" class="ch-info-lightbox">
+                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
                             <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
                         <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
