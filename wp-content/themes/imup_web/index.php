@@ -436,7 +436,10 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+                  <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
+                  <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                    <div class="ch-item ch-item-hover" style="background: <?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?> no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
@@ -450,7 +453,7 @@
 
 
                     <div class="ch-info-text">
-                        <p class="title">Bob Miller</p>
+                        <p class="title"><?php the_title(); ?></p>
 
                     </div>
                 </div>
@@ -487,13 +490,8 @@
                         </div>
 
                         <div class="work-description span6">
-                            <h3>Bob Miller</h3>
-                            <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.<!--more--></p>
-                            <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui.
-                                Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et. Sed
-                                <a href="#">porttitor eros</a>
-                                ut purus elementum a consectetur purus vulputate
-                            </p>
+                            <h3><?php the_title(); ?></h3>
+                            <p> <?php the_content(); ?></p>
 
                             <div class="work-skillsdate span6">
                                 <p class="categories paragraph-links">
