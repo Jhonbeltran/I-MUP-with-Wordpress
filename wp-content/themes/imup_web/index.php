@@ -439,7 +439,7 @@
                   <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
                   <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                    <div class="ch-item ch-item-hover"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>    </div>
+                    <div class="ch-item ch-item-hover"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
@@ -510,7 +510,7 @@
                         <div class="clear"></div>
                     </div>
                 </div>
-
+            </div>
                <?php endwhile;?>
         </li>
         <hr />
