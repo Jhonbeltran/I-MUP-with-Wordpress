@@ -436,9 +436,6 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                  <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
-                  <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-
                     <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
@@ -511,7 +508,6 @@
                     </div>
                 </div>
             </div>
-               <?php endwhile;?>
         </li>
         <hr />
         <hr />
