@@ -17,32 +17,10 @@
 <!--[if !IE]>
 <html lang="en-US">
 <![endif]-->
-<?php get_header(); ?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
-<!-- BOOTSTRAP STYLESHEET -->
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/bootstrap.css" />
-<!-- MAIN THEME STYLESHEET -->
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/style.css" />
 
-<link rel='stylesheet' id='custom-css'  href='<?php bloginfo ('template_directory'); ?>/css/custom.css' type='text/css' media='all' />
-<link rel='stylesheet' id='google-fonts-css'  href='<?php bloginfo ('template_directory'); ?>/http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
-<link rel='stylesheet' id='responsive-css'  href='<?php bloginfo ('template_directory'); ?>/css/responsive.css' type='text/css' media='all' />
-<link rel='stylesheet' id='thickbox-css'  href='<?php bloginfo ('template_directory'); ?>/js/thickbox/thickbox.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tipsy-css'  href='<?php bloginfo ('template_directory'); ?>/css/tipsy.css' type='text/css' media='all' />
+<!-- START HEAD -->
 
-<link rel='stylesheet' id='fonts-css'  href='<?php bloginfo ('template_directory'); ?>/css/font-awesome.css' type='text/css' media='all' />
-<link rel='stylesheet' id='full-descriptor-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/full-description/css/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='slide-details-css'  href='<?php bloginfo ('template_directory'); ?>/portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='shortcode-css'  href='<?php bloginfo ('template_directory'); ?>/css/shortcodes.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='colorbox-css'  href='<?php bloginfo ('template_directory'); ?>/css/colorbox.css' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-button-mfast-3-css'  href='<?php bloginfo ('template_directory'); ?>/css/buttons/mfast-3.css' type='text/css' media='all' />
-<link rel='stylesheet' id='flexslider-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-<link rel='stylesheet' id='flexslider-elegant-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
-<link rel= 'stylesheet' href="<?php bloginfo ('template_directory'); ?>/font-awesome/css/font-awesome.min.css">
 <!-- START SLIDER -->
 <div id="slider-revolution-slider" class="slider slider-revolution-slider revolution-slider">
     <div class="shadowWrapper">
@@ -52,15 +30,15 @@
             <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:400px;height:400;">
                 <ul>
                     <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/uno.jpeg">
+                        <img src="images/slider/1-bg.jpg">
 
                         <div class="tp-caption lfb"
-                             data-x="20"
+                             data-x="30"
                              data-y="13"
                              data-speed="2000"
                              data-start="300"
                              data-easing="easeOutQuint">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/foto.png" alt="Image1">
+                            <img src="images/slider/1-l1.png" alt="Image1">
                         </div>
 
                         <div class="tp-caption main_title lft"
@@ -69,7 +47,7 @@
                              data-speed="1000"
                              data-start="1500"
                              data-easing="easeOutQuint"  >
-                            Bienvenidos.
+                            WELCOME.
                         </div>
 
                         <div class="tp-caption paragraph lfb"
@@ -78,9 +56,9 @@
                              data-speed="1000"
                              data-start="1800"
                              data-easing="easeOutQuint"  >
-                            Somos una Agencia de Publicidad que brinda asesoramiento integral y de alta calidad
+                            I’m Celestino, and this is a creative and responsive portfolio theme based on WordPress.
                             <br />
-                            para la implentacion de estrategias digitales de empresas en la región Sumapaz.
+                            7 different sliders, unlimited portfolio pages...for a great portfolio & personal site.
                         </div>
 
                         <div class="tp-caption paragraph_highlighted lfr"
@@ -89,84 +67,75 @@
                              data-speed="1000"
                              data-start="2100"
                              data-easing="easeOutQuint"  >
-                            Sé Diferente,Sé Creativo,Crece con Nosotros.
+                            Be different. Be creative. Enjoy Celestino.
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="424"
-                             data-y="290"
+                             data-x="494"
+                             data-y="313"
                              data-speed="1200"
                              data-start="2500"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/generando.png" alt="Image 5">
+                            <img src="images/slider/1-l2.png" alt="Image 5">
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="590"
-                             data-y="290"
+                             data-x="587"
+                             data-y="306"
                              data-speed="1200"
                              data-start="3000"
                              data-easing="easeOutBounce"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/idea.png" alt="Image 8">
+                            <img src="images/slider/1-l3.png" alt="Image 8">
                         </div>
 
                         <div class="tp-caption lfr"
-                             data-x="686"
-                             data-y="290"
+                             data-x="676"
+                             data-y="311"
                              data-speed="1200"
                              data-start="3400"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/basados.png" alt="Image 9">
+                            <img src="images/slider/1-l4.png" alt="Image 9">
                         </div>
-<!--
+
                         <div class="tp-caption lfl"
                              data-x="786"
                              data-y="316"
                              data-speed="1200"
                              data-start="3800"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/1-l5.png" alt="Image 10">
+                            <img src="images/slider/1-l5.png" alt="Image 10">
                         </div>
--->
+
                         <div class="tp-caption lft"
-                             data-x="878"
+                             data-x="858"
                              data-y="298"
                              data-speed="1200"
                              data-start="4200"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/video.png" alt="Image 11">
+                            <img src="images/slider/1-l6.png" alt="Image 11">
                         </div>
 
                         <div class="tp-caption lfb"
-                             data-x="948"
-                             data-y="298"
+                             data-x="954"
+                             data-y="308"
                              data-speed="1200"
                              data-start="4600"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/web.png" alt="Image 12">
+                            <img src="images/slider/1-l7.png" alt="Image 12">
                         </div>
 
                         <div class="tp-caption lft"
-                             data-x="1018"
-                             data-y="298"
+                             data-x="1051"
+                             data-y="329"
                              data-speed="1200"
                              data-start="5200"
                              data-easing="easeOutQuint"  >
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/slider/grafico.png" alt="Image 13">
+                            <img src="images/slider/1-l8.png" alt="Image 13">
                         </div>
                     </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/dos.jpeg" alt="2-bg" >
+                    <img src="images/slider/2-bg.jpg" alt="2-bg" >
 
-                    <div class="tp-caption paragraph lfb"
-                         data-x="0"
-                         data-y="194"
-                         data-speed="1000"
-                         data-start="700"
-                         data-easing="easeOutQuint"  >
-                        A powerful 1170 pixel layout for a great and strong layout. <br />
-                        <b>Optimized for minor resolutions and mobile devices.</b>
-                    </div>
                     <div class="tp-caption main_title lfr"
                          data-x="0"
                          data-y="60"
@@ -177,7 +146,15 @@
                         RESPONSIVE
                     </div>
 
-
+                    <div class="tp-caption paragraph lfb"
+                         data-x="0"
+                         data-y="194"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="easeOutQuint"  >
+                        A powerful 1170 pixel layout for a great and strong layout. <br />
+                        <b>Optimized for minor resolutions and mobile devices.</b>
+                    </div>
 
                     <div class="tp-caption paragraph lfb"
                          data-x="0"
@@ -185,7 +162,7 @@
                          data-speed="1200"
                          data-start="3300"
                          data-easing="easeOutQuint"  >
-                        <a href="<?php bloginfo ('template_directory'); ?>/http://www.themeforest.net/item/pink-rio-responsive-multipurpose-theme/3091259"  class="btn btn-xlarge  btn-mfast-3 ">Purchase the theme</a>
+                        <a href="http://www.themeforest.net/item/pink-rio-responsive-multipurpose-theme/3091259"  class="btn btn-xlarge  btn-mfast-3 ">Purchase the theme</a>
                     </div>
 
                     <div class="tp-caption lft"
@@ -194,7 +171,7 @@
                          data-speed="1000"
                          data-start="1600"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l1.png" alt="Image 4">
+                        <img src="images/slider/2-l1.png" alt="Image 4">
                     </div>
 
                     <div class="tp-caption lfb"
@@ -203,7 +180,7 @@
                          data-speed="900"
                          data-start="2000"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l2.png" alt="Image 5">
+                        <img src="images/slider/2-l2.png" alt="Image 5">
                     </div>
 
                     <div class="tp-caption lfl"
@@ -212,11 +189,11 @@
                          data-speed="900"
                          data-start="2400"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/2-l3.png" alt="Image 6">
+                        <img src="images/slider/2-l3.png" alt="Image 6">
                     </div>
                 </li>
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                    <img src="<?php bloginfo ('template_directory'); ?>/images/slider/tres.jpeg" alt="3-bg" >
+                    <img src="images/slider/3-bg.jpg" alt="3-bg" >
 
                     <div class="tp-caption paragraph sft"
                          data-x="0"
@@ -341,7 +318,7 @@
                          data-speed="1000"
                          data-start="4200"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l3.png" alt="Image 14">
+                        <img src="images/slider/3-l3.png" alt="Image 14">
                     </div>
 
                     <div class="tp-caption lfr"
@@ -350,7 +327,7 @@
                          data-speed="1000"
                          data-start="4500"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l1.png" alt="Image 15">
+                        <img src="images/slider/3-l1.png" alt="Image 15">
                     </div>
 
                     <div class="tp-caption lfb"
@@ -359,7 +336,7 @@
                          data-speed="1500"
                          data-start="5000"
                          data-easing="easeOutQuint"  >
-                        <img src="<?php bloginfo ('template_directory'); ?>/images/slider/3-l2.png" alt="Image 16">
+                        <img src="images/slider/3-l2.png" alt="Image 16">
                     </div>
                 </li>
                 </ul>
@@ -461,15 +438,15 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -491,13 +468,13 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                            <img width="574" height="340" src="images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
                                         </li>
                                     </ul>
                                 </div>
@@ -1079,7 +1056,6 @@
         <div id="comments"></div>
         <!-- END COMMENTS -->
         </div>
-
 <!-- END CONTENT -->
 
 <!-- START EXTRA CONTENT -->
@@ -1089,6 +1065,152 @@
     </div>
 </div>
 <!-- END PRIMARY -->
+
+
+<!-- START FOOTER -->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="widget-first widget span3 recent-posts">
+                    <h3>From my blog</h3>
+                    <div class="recent-post">
+                        <div class="post type-post status-publish format-gallery hentry category-web-design group">
+
+                            <div class="date">
+                                <span class="month">Oct</span>
+                                <span class="day">8</span>
+                            </div>
+
+                            <div class="text">
+                                <h3>
+                                    <a href="blog-detail.html" title="This is the title of the first article. Enjoy it.">
+                                        This is the title of the first article. Enjoy it.
+                                    </a>
+                                </h3>
+                                <p>by
+                                    <a href="author-celestino.html" title="Posts by celestino" rel="author">
+                                        celestino
+                                    </a> -
+
+                                    <a href="blog-detail.html#respond" title="Comment on This is the title of the first article. Enjoy it.">
+                                        0 comments
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post type-post status-publish format-standard hentry category-elegant-vintage group">
+
+                            <div class="date">
+                                <span class="month">Sep</span>
+                                <span class="day">12</span>
+                            </div>
+
+                            <div class="text">
+                                <h3>
+                                    <a href="#" title="Nice &amp; Clean. The best for your blog!">
+                                        Nice &amp; Clean. The best for your blog!
+                                    </a>
+                                </h3>
+
+                                <p>by
+                                    <a href="#" title="Posts by celestino" rel="author">
+                                        celestino
+                                    </a> -
+                                    <a href="#" title="Comment on Nice &amp; Clean. The best for your blog!">
+                                        0 comments
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget span3 widget_flickrRSS">
+                    <h3>My Flickr</h3>
+
+                    <a title="1P4B6832" href="http://www.flickr.com/photos/gordonkw41/8756237357/"><img alt="1P4B6832" src="http://farm9.staticflickr.com/8553/8756237357_32d559d451_s.jpg"></a>
+                    <a title="DSC03253" href="http://www.flickr.com/photos/dovz/8756237387/"><img alt="DSC03253" src="http://farm8.staticflickr.com/7422/8756237387_1c3013358d_s.jpg"></a>
+                    <a title="Tappas in Hondarribia" href="http://www.flickr.com/photos/francolupo/8756237389/"><img alt="Tappas in Hondarribia" src="http://farm3.staticflickr.com/2867/8756237389_faae5159f8_s.jpg"></a>
+                    <a title="P1000624" href="http://www.flickr.com/photos/24690780@N02/8756237421/"><img alt="P1000624" src="http://farm9.staticflickr.com/8393/8756237421_43de542797_s.jpg"></a>
+                    <a title="" href="http://www.flickr.com/photos/chioushibo/8756237483/"><img alt="" src="http://farm6.staticflickr.com/5454/8756237483_9a8805a3d4_s.jpg"></a>
+                    <a title="P1010059" href="http://www.flickr.com/photos/uzagaku/8756237507/"><img alt="P1010059" src="http://farm4.staticflickr.com/3777/8756237507_e6e45db22a_s.jpg"></a>
+                    <a title="Berlijn 2013" href="http://www.flickr.com/photos/carlawiddershoven/8756237559/"><img alt="Berlijn 2013" src="http://farm3.staticflickr.com/2809/8756237559_16964e44ea_s.jpg"></a>
+                    <a title="20130518-_DSC9574" href="http://www.flickr.com/photos/fomalhaut/8757363666/"><img alt="20130518-_DSC9574" src="http://farm3.staticflickr.com/2857/8757363666_cce1ef7ea5_s.jpg"></a>
+                    <a title="20130519_144623.jpg" href="http://www.flickr.com/photos/lewisdgriffin/8757363718/"><img alt="20130519_144623.jpg" src="http://farm4.staticflickr.com/3817/8757363718_64d870995a_s.jpg"></a>
+                    <a title="baden-württenmberg und bayern 2013 1 284" href="http://www.flickr.com/photos/russianchild007/8757363726/"><img alt="baden-württenmberg und bayern 2013 1 284" src="http://farm4.staticflickr.com/3773/8757363726_e7c9ed61a7_s.jpg"></a>
+                </div>
+                <div  class="widget span3 contact-info">
+                    <h3>Get in touch</h3>
+                    <div class="sidebar-nav">
+                        <ul>
+                            <li>
+                                <i class="icon-map-marker" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                <span>Address:</span> Celestino, 115 Avenue - Italy
+                            </li>
+                            <li>
+                                <i class="icon-phone" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                <span>Mobile:</span> +39 3471717174
+                            </li>
+                            <li>
+                                <i class="icon-print" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                <span>Fax:</span> +39 0035 356 765
+                            </li>
+                            <li>
+                                <i class="icon-envelope" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                <span>Email:</span> celestino@yit.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="last-tweets-2" class=" widget span3 last-tweets">
+                    <h3>Last Tweets</h3>
+                    <div class="list-tweets-2">
+
+                    </div>
+
+                    <script type="text/javascript">
+                        jQuery(function($){
+                            $('#last-tweets-2 .list-tweets-2').tweetable({
+                                listClass: 'tweets-widget-2',
+                                username: 'envato',
+                                time: true,
+                                limit: 2,
+                                replies: true
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END FOOTER -->
+
+<!-- START COPYRIGHT -->
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="left span6">
+                <a href="http://yithemes.com/?ddownload=60426&amp;ap_id=celestino-html"><strong>Download the free version for Wordpress</strong></a>
+            </div>
+            <div class="right span6">
+                <p>Powered by
+                    <a href="http://yithemes.com/" title="free themes wordpress">
+                        <strong>Your Inspiration Themes</strong>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END COPYRIGHT -->
+
+</div>
+<!-- END WRAPPER -->
+
+</div>
+<!-- END BG SHADOW -->
 
 
 
@@ -1110,7 +1232,6 @@
 <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
 <script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
 
-<?php get_footer(); ?>
 </body>
 <!-- END BODY -->
 </html>
