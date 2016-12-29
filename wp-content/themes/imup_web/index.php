@@ -439,7 +439,7 @@
                   <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
                   <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
@@ -469,7 +469,13 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="340" src="<?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
+                                        </li>
+                                        <li>
+                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                        </li>
+                                        <li>
+                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
                                         </li>
                                     </ul>
                                 </div>
