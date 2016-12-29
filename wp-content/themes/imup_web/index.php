@@ -403,271 +403,205 @@
 <!-- START PAGE META -->
 <div id="page-meta" class="container">
    <!-- SLOGAN -->
+    <div class="slogan">
+        <h2>Proyectos</h2><h3>Un vistazo a nuestros trabajos realizados.</h3>
+    </div>
+</div>
+<!-- END PAGE META -->
 
-    <!-- portafolio-->
-
-    <section id="service">
-      <div class="container">
+<!-- START PRIMARY -->
+<div id="primary" class="sidebar-no">
+    <div class="container group">
         <div class="row">
-          <div class="col-md-12">
-            <div class="service-area">
-              <div class="title-area">
-                <h2 class="tittle">Service we offer</h2>
-                <span class="tittle-line"></span>
-                <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-              </div>
-              <!-- service content -->
-              <div class="service-content">
-                <ul class="service-table">
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-edit service-icon"></span>
-                      <h4 class="service-title">UX Design</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-sort-amount-asc service-icon"></span>
-                      <h4 class="service-title">Strategy</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                   <div class="single-service wow slideInUp">
-                      <span class="fa fa-map-o service-icon"></span>
-                      <h4 class="service-title">UI Design</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-rocket service-icon"></span>
-                      <h4 class="service-title">Analystic</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-car service-icon"></span>
-                      <h4 class="service-title">Usibility</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-bank service-icon"></span>
-                      <h4 class="service-title">Business solution</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-user-secret service-icon"></span>
-                      <h4 class="service-title">Creative concept</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                  <li class="col-md-3 col-sm-6">
-                    <div class="single-service wow slideInUp">
-                      <span class="fa fa-support service-icon"></span>
-                      <h4 class="service-title">Support</h4>
-                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End service section -->
 
-    <!-- Start Portfolio section -->
-    <section id="portfolio">
-      <div class="container">
+             <!-- START CONTENT -->
+            <div id="content-home" class="span12 content group">
+                <div class="page type-page status-publish hentry group">
+
+            <script>
+                jQuery(document).ready(function($){
+                    $('.sidebar').remove();
+
+                    if( !$('#primary').hasClass('sidebar-no') ) {
+                        $('#primary').removeClass().addClass('sidebar-no');
+                        $('.content').removeClass('span9').addClass('span12');
+                    }
+
+                });
+            </script>
+
         <div class="row">
-          <div class="col-md-12">
-            <div class="portfolio-area">
-              <div class="title-area">
-                <h2 class="tittle">Recent portfolio</h2>
-                <span class="tittle-line"></span>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-              </div>
-              <!-- Portfolio content -->
-              <div class="portfolio-content">
-                 <!-- Portfolio container -->
-                 <div class="portfolio-container">
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small1.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                          <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small2.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                          <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big2.jpg" alt="img-2" />
-  	                        <h2>Mobile Application 2</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small3.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                             <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                           <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big3.jpg" alt="img-2" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small4.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                          <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big4.jpg" alt="img-2" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small5.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                          <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big5.jpg" alt="img-5" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small6.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                           <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big6.jpg" alt="img-2" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small7.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                           <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                           <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big7.jpg" alt="img-2" />
-  	                        <h2>Mobile Application</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="single-portfolio">
-                     <div class="single-item">
-                       <img src="assets/images/portfolio-img-small1.jpg" alt="img">
-                       <div class="single-item-content">
-                          <div class="portfolio-social-icon">
-                             <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                          </div>
-                          <div class="portfolio-title">
-                            <h4>Mobile application</h4>
-                          </div>
-                           <div class="portfolio-detail">
-  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-  	                        <img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
-  	                        <h2>Mobile Application 2</h2>
-  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  	                        <a href="#" class="view-project-btn">Live Demo</a>
-                          </div>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <ul id="portfolio" class="slide-detail detail thumbnails">
 
-    <!-- fin portafolio -->
+
+                <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
+
+                  <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
+                  <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                    <div class="ch-item ch-item-hover"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
+
+                <div class="ch-info">
+                    <div class="ch-info-icons">
+                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        </a>
+                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        </a>
+                    </div>
+
+
+                    <div class="ch-info-text">
+                        <p class="title">Bob Miller</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide_detail">
+                <div class="container portfolio-full-description">
+                    <div class="slide_close">[x] Close</div>
+                    <div class="page type-page status-publish hentry work group row">
+                        <div class="work-thumbnail span6">
+                            <div class="thumb-wrapper">
+
+                                <div class="extra-images-slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
+
+                                    </ul>
+                                </div>
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function($){
+                                        $('.extra-images-slider').flexslider({
+                                            controlNav: false
+                                        });
+                                    });
+                                </script>
+                            </div>
+                        </div>
+
+                        <div class="work-description span6">
+                            <h3>Bob Miller</h3>
+                            <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.<!--more--></p>
+                            <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui.
+                                Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et. Sed
+                                <a href="#">porttitor eros</a>
+                                ut purus elementum a consectetur purus vulputate
+                            </p>
+
+                            <div class="work-skillsdate span6">
+                                <p class="categories paragraph-links">
+                                    <span class="meta-label">Project:</span> Photoshop, Illustrator
+                                </p>
+                                <p class="customer"><span class="meta-label">Customer:</span> Bob Miller </p>
+                                <p class="workdate"><span class="meta-label">Year:</span> 2012</p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+               <?php endwhile;?>
+        </li>
+        <hr />
+        <hr />
+    </ul>
+</div>
+
+        <script type="text/javascript" charset="utf-8">
+            jQuery(document).ready(function($){
+
+                function isMobile() {
+                    return navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || ( navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/Mobile/i) );
+                }
+
+
+                if( !isMobile() ) {
+
+                    $('.open_slide').live('click', function(e){
+                        e.preventDefault();
+
+                        var li_parent = $(this).parents('li');
+                        var div = li_parent.find('.slide_detail');
+                        if(!div.is(':visible')) {
+                            $('.ch-item').removeClass('ch-item-opened');
+                            li_parent.find('.ch-item').addClass('ch-item-opened');
+
+                            var slide_opened = $('.slide_detail:visible').length;
+                            var same_row     = slide_opened && parseInt( $('.slide_detail:visible').parents('li').index() / 5 ) == parseInt( $(this).parents('li').index() / 5 );
+                            var description_height = div.find('.work-description').height(); console.log(div.find('.work-description'));
+
+                            var animation = function(div, li_parent, same_row) {
+                                $.Deferred(function(def) {
+                                    def.pipe(function(){
+                                        return $('ul#portfolio hr, .slide_detail').slideUp(500);
+                                    }).pipe(function(){
+                                            var offset_y = li_parent.data('isotope-item-position') ?
+                                                li_parent.data('isotope-item-position').y + li_parent.offset().top :
+                                                li_parent.offset().top;
+
+                                            return $.scrollTo(offset_y - 40, same_row ? 1 : 500, {'axis':'y'} );
+                                        }).pipe(function(){
+                                            return setTimeout(function() {
+                                                var offset_x = li_parent.data('isotope-item-position') ?
+                                                    li_parent.data('isotope-item-position').x + li_parent.offset().left :
+                                                    li_parent.offset().left;
+
+                                                div.css({
+                                                    left: -offset_x + $('#wrapper').offset().left,
+                                                    width: $('#wrapper').width()
+                                                }).slideDown(500);
+                                                $( li_parent ).nextAll('hr:first').slideDown(500,function(){
+                                                    //recalculate left offset once the slide is opened
+                                                    var offset_x = li_parent.data('isotope-item-position') ?
+                                                        li_parent.data('isotope-item-position').x + li_parent.offset().left :
+                                                        li_parent.offset().left;
+                                                    div.css({
+                                                        left: -offset_x + $('#wrapper').offset().left,
+                                                        width: $('#wrapper').width(),
+                                                        height: div.outerHeight()
+                                                    });
+
+                                                    $(this).css({
+                                                        height: div.outerHeight()
+                                                    });
+
+                                                    div.find('.container').css({
+                                                        height: div.outerHeight() - 35
+                                                    });
+                                                });
+                                            }, same_row ? 500 : 1000);
+                                        });
+                                }).resolve();
+                            };
+                            animation( div, li_parent, same_row );
+                        } else {
+                            div.find('.slide_close').click();
+                        }
+                    });
+
+                    $('.slide_close').click(function(){
+                        $('.ch-item').removeClass('ch-item-opened');
+                        $(this).parents('.slide_detail').slideUp('slow');
+                        $('ul#portfolio hr').slideUp('slow');
+                    });
+
+                    $(window).resize(function(){
+                        if( !isIE8() ) {
+                            $('.ch-item').removeClass('ch-item-opened');
+                            $('.slide_detail').slideUp('slow');
+                            $('ul#portfolio hr').slideUp('slow');
+                        }
+                    });
+
+
+                }
+            });
+        </script>
 
         <p>&nbsp;</p>
         <p>
