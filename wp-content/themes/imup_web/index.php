@@ -403,7 +403,271 @@
 <!-- START PAGE META -->
 <div id="page-meta" class="container">
    <!-- SLOGAN -->
-    
+
+    <!-- portafolio-->
+
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="service-area">
+              <div class="title-area">
+                <h2 class="tittle">Service we offer</h2>
+                <span class="tittle-line"></span>
+                <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+              </div>
+              <!-- service content -->
+              <div class="service-content">
+                <ul class="service-table">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-edit service-icon"></span>
+                      <h4 class="service-title">UX Design</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-sort-amount-asc service-icon"></span>
+                      <h4 class="service-title">Strategy</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                   <div class="single-service wow slideInUp">
+                      <span class="fa fa-map-o service-icon"></span>
+                      <h4 class="service-title">UI Design</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-rocket service-icon"></span>
+                      <h4 class="service-title">Analystic</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-car service-icon"></span>
+                      <h4 class="service-title">Usibility</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-bank service-icon"></span>
+                      <h4 class="service-title">Business solution</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-user-secret service-icon"></span>
+                      <h4 class="service-title">Creative concept</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-service wow slideInUp">
+                      <span class="fa fa-support service-icon"></span>
+                      <h4 class="service-title">Support</h4>
+                      <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End service section -->
+
+    <!-- Start Portfolio section -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio-area">
+              <div class="title-area">
+                <h2 class="tittle">Recent portfolio</h2>
+                <span class="tittle-line"></span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+              </div>
+              <!-- Portfolio content -->
+              <div class="portfolio-content">
+                 <!-- Portfolio container -->
+                 <div class="portfolio-container">
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small1.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                          <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small2.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                          <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big2.jpg" alt="img-2" />
+  	                        <h2>Mobile Application 2</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small3.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                             <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                           <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big3.jpg" alt="img-2" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small4.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                          <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big4.jpg" alt="img-2" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small5.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                          <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big5.jpg" alt="img-5" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small6.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                            <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                           <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big6.jpg" alt="img-2" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small7.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                           <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                           <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big7.jpg" alt="img-2" />
+  	                        <h2>Mobile Application</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="single-portfolio">
+                     <div class="single-item">
+                       <img src="assets/images/portfolio-img-small1.jpg" alt="img">
+                       <div class="single-item-content">
+                          <div class="portfolio-social-icon">
+                             <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          </div>
+                          <div class="portfolio-title">
+                            <h4>Mobile application</h4>
+                          </div>
+                           <div class="portfolio-detail">
+  	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
+  	                        <img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
+  	                        <h2>Mobile Application 2</h2>
+  	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	                        <a href="#" class="view-project-btn">Live Demo</a>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fin portafolio -->
 
         <p>&nbsp;</p>
         <p>
