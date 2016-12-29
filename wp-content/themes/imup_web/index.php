@@ -403,14 +403,7 @@
 <!-- START PAGE META -->
 <div id="page-meta" class="container">
    <!-- SLOGAN -->
-    <div class="slogan">
-        <h2>Proyectos</h2><h3>Un vistazo a nuestros trabajos realizados.</h3>
-    </div>
-</div>
-<!-- END PAGE META -->
-
-<!-- START PRIMARY -->
-
+    
 
         <p>&nbsp;</p>
         <p>
