@@ -470,13 +470,7 @@
                                     <ul class="slides">
                                         <li>
                                             <?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
-                                        </li>
-                                        <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
-                                        </li>
-                                        <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
-                                        </li>
+                  
                                     </ul>
                                 </div>
                                 <script type="text/javascript">
