@@ -1,8 +1,8 @@
 /**
  * Your Inspiration Themes
- *
+ * 
  * In this files the framework register default metaboxes.
- *
+ * 
  * @package WordPress
  * @subpackage Your Inspiration Themes
  * @author Your Inspiration Themes Team <info@yourinspirationthemes.com>
@@ -101,7 +101,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #A05F02; }
 #topbar a:hover { color: #ab5705; }
 #header div.menu > ul > li > a { font-size: 14px; font-family: 'Maven Pro', sans-serif; color: #727272; font-style: normal; font-weight: 400; }
 #header div.menu > ul > li > a:hover { color: #8d5504; }
-#header div.menu > ul > li.current-menu-item > a, #header div.menu > ul > li.current-menu-ancestor > a, #header div.menu > ul > li.current_page_parent > a, #header div.menu > ul > li.current_page_ancestor > a, #header div.menu > ul > li.current_page_item > a { color: #8d5504;border-bottom: 3px solid #CAD0D1; }
+#header div.menu > ul > li.current-menu-item > a, #header div.menu > ul > li.current-menu-ancestor > a, #header div.menu > ul > li.current_page_parent > a, #header div.menu > ul > li.current_page_ancestor > a, #header div.menu > ul > li.current_page_item > a { color: #8d5504; }
 #header div.menu > ul ul li a { font-size: 13px; font-family: 'Maven Pro', sans-serif; color: #373636; font-style: normal; font-weight: 400; }
 #header div.menu > ul ul li a:hover { color: #8d5504; }
 #header div.menu > ul ul li.current-menu-item > a, #header div.menu > ul ul .current-menu-ancestor > a { color: #8d5504; }
