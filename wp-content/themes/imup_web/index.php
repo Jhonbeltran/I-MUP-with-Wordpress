@@ -404,7 +404,7 @@
 <div id="page-meta" class="container">
    <!-- SLOGAN -->
     <div class="slogan">
-        <h2>Proyectos</h2><h3>Un vistazo a nuestros trabajos realizados.</h3>
+        <h2>Featured Projects</h2><h3>a quick look to my wonderful works.</h3>
     </div>
 </div>
 <!-- END PAGE META -->
@@ -436,15 +436,15 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
-                        <a href="<?php bloginfo ('template_directory'); ?>/portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                        <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -466,13 +466,13 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                            <img width="574" height="340" src="images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
                                         </li>
                                     </ul>
                                 </div>
@@ -1028,7 +1028,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="<?php bloginfo ('template_directory'); ?>/images/25.jpg" alt="" width="52" height="52" />
+                <img src="images/25.jpg" alt="" width="52" height="52" />
                 <p>Freelance projects</p>
                 <span class="number">65</span>
             </div>
@@ -1036,7 +1036,7 @@
 
         <div class="one-fourth ">
             <div class="random-numbers">
-                <img src="<?php bloginfo ('template_directory'); ?>/images/31.jpg" alt="" width="52" height="52" />
+                <img src="images/31.jpg" alt="" width="52" height="52" />
                 <p>sales on themeforest</p>
                 <span class="number">12.845</span>
             </div>
@@ -1044,7 +1044,7 @@
 
         <div class="one-fourth last">
             <div class="random-numbers">
-                <img src="<?php bloginfo ('template_directory'); ?>/images/41.jpg" alt="" width="52" height="52" />
+                <img src="images/41.jpg" alt="" width="52" height="52" />
                 <p>...Weekly Coffee!</p>
                 <span class="number">36</span>
             </div>
@@ -1054,6 +1054,7 @@
         <div id="comments"></div>
         <!-- END COMMENTS -->
         </div>
+
 <!-- END CONTENT -->
 
 <!-- START EXTRA CONTENT -->
