@@ -439,7 +439,7 @@
                   <?php $the_query = new WP_Query( 'cat=3&showposts=10' ); ?>
                   <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                    <div class="ch-item ch-item-hover"><div class="principal"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?>
+                    <div class="ch-item ch-item-hover"><div class="principal"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( '' ); } ?></div>
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
@@ -455,7 +455,6 @@
                     <div class="ch-info-text">
                         <p class="title">Bob Miller</p>
 
-                    </div>
                     </div>
                 </div>
             </div>
