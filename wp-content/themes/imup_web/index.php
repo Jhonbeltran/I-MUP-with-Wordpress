@@ -506,6 +506,7 @@
                     </div>
                 </div>
             </div>
+              <?php endwhile;?>
         </li>
         <hr />
         <hr />
