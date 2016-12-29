@@ -10,6 +10,4 @@ register_nav_menus( array(
     add_theme_support( 'post-thumbnails' );
     //300 pixels wide (and unlimited height)
 }
-
-
  ?>
