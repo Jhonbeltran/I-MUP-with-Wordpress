@@ -159,7 +159,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #C86F06; }
 
 /* === LOGO */
 #logo {
-	margin-top: 30px;
+	margin-top: 0px;
     float: left;
 }
 #logo-img, #textual { float: left; max-width:100%; }
