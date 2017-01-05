@@ -430,7 +430,7 @@
 <div id="page-meta" class="container">
    <!-- SLOGAN -->
     <div class="slogan">
-        <h2>Featured Projects</h2><h3>a quick look to my wonderful works.</h3>
+        <h2>PROYECTOS</h2><h3>a quick look to my wonderful works.</h3>
     </div>
 </div>
 <!-- END PAGE META -->
