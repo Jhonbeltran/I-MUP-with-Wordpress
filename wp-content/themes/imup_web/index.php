@@ -498,7 +498,7 @@
                                             <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol2.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <iframe width="560" height="350" src="https://www.youtube.com/embed/7jDQORfS4O8" frameborder="0" allowfullscreen></iframe>
+                                            <iframe width="550" height="350" src="https://www.youtube.com/embed/7jDQORfS4O8" frameborder="0" allowfullscreen></iframe>
                                         </li>
                                         <li>
                                             <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol3.jpeg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
