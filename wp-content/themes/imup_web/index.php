@@ -462,15 +462,15 @@
 
                 <li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
 
-                    <div class="ch-item ch-item-hover" style="background: url('<?php bloginfo ('template_directory'); ?>/images/portfolios/001-260x172.jpg') no-repeat center;">
+                    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
-                        <a href="<?php bloginfo ('template_directory'); ?>/images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/zoom.png" alt="Open Lightbox" />
+                        <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                            <img src="images/icons/zoom.png" alt="Open Lightbox" />
                         </a>
                         <a href="portfolios/portfolio-detail/?cpt_item=bob-miller" class="open_slide">
-                            <img src="<?php bloginfo ('template_directory'); ?>/images/icons/project.png" alt="" />
+                            <img src="images/icons/project.png" alt="" />
                         </a>
                     </div>
 
@@ -492,13 +492,13 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="340" src="<?php bloginfo ('template_directory'); ?>/images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                            <img width="574" height="340" src="images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
                                         </li>
                                     </ul>
                                 </div>
@@ -538,7 +538,7 @@
 
         <li  class="filterable_item span3 brandidentity  logodesign ">
 
-            <div class="ch-item ch-item-hover" style="<?php bloginfo ('template_directory'); ?>/background: url('images/blog/0023-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="background: url('images/blog/0023-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
@@ -1089,19 +1089,7 @@
     </div>
 </div>
 <!-- END PRIMARY -->
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.colorbox-min.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tweetable.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.superfish.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.plugins.min.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.revolution.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/portfolios/filterable/js/jquery.filterable.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tipsy.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/responsive.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.mobilemenu.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/shortcodes.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
-<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
+
 
 <?php get_footer(); ?>
 
