@@ -17,7 +17,7 @@
 <!--[if !IE]>
 <html lang="en-US">
 <![endif]-->
-<?php get_header(); ?>
+
 <!-- START HEAD -->
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo ('template_directory'); ?>/css/reset.css" />
 <!-- BOOTSTRAP STYLESHEET -->
@@ -1090,7 +1090,9 @@
 </div>
 <!-- END PRIMARY -->
 
+
+<?php get_footer(); ?>
+
 </body>
 <!-- END BODY -->
 </html>
-<?php get_header(); ?>
