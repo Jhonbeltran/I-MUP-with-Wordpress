@@ -514,12 +514,7 @@
 
                         <div class="work-description span6">
                             <h3>Bob Miller</h3>
-                            <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.<!--more--></p>
-                            <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui.
-                                Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et. Sed
-                                <a href="#">porttitor eros</a>
-                                ut purus elementum a consectetur purus vulputate
-                            </p>
+                            <h6>Cliente: </h6><h4><b>Comunidad Cultura Libre de Fusagasugá</b></h4><br><p>La Comunidad de Cultura Libre de Fusagasugá es una propuesta de integración entre todos los usuarios de Sistemas Operativos GNU/Linux, Software Open Source y Software Libre en Fusagasugá y alrededores.</p><br> <h6><b>Nuestro Trabajo</b></h6><ul><li> <p>Diseño Web: Construcción de sitio web </p></li><li> <p>Realización Audiovisual: Vídeo promocional de 27 segundos  de duración</p></li><li><p> Diseño Gráfico: Creación de la nueva imagen FLISoL Fusagasugá </p></li></ul></h6><br><p><h4>URL</h4><p>http://fusa.flisol.info/2016/</p>
 
                             <div class="work-skillsdate span6">
                                 <p class="categories paragraph-links">
