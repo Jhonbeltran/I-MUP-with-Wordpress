@@ -492,19 +492,19 @@
                                 <div class="extra-images-slider">
                                     <ul class="slides">
                                         <li>
-                                            <img width="574" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol1.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="555" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol1.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol2.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="555" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol2.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
                                             <iframe width="555" height="320" src="https://www.youtube.com/embed/7jDQORfS4O8" frameborder="0" allowfullscreen></iframe>
                                         </li>
                                         <li>
-                                            <img width="574" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol3.jpeg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="555" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol3.jpeg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                         <li>
-                                            <img width="574" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol4.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                            <img width="555" height="320" src="<?php bloginfo ('template_directory'); ?>/proyectos/flisol/flisol4.png" class="attachment-thumb_portfolio_fulldesc" alt="001" />
                                         </li>
                                     </ul>
                                 </div>
