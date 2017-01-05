@@ -44,7 +44,19 @@
 <link rel='stylesheet' id='rs-settings-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-captions-css'  href='<?php bloginfo ('template_directory'); ?>/sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
 <link rel= 'stylesheet' href="<?php bloginfo ('template_directory'); ?>/font-awesome/css/font-awesome.min.css">
-
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tweetable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.superfish.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.plugins.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.revolution.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/portfolios/filterable/js/jquery.filterable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tipsy.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/responsive.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.mobilemenu.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/shortcodes.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
 !-- START SLIDER -->
 <div id="slider-revolution-slider" class="slider slider-revolution-slider revolution-slider">
     <div class="shadowWrapper">
