@@ -494,7 +494,7 @@ ul.sf-menu li li li.sfHover ul {
 #page-meta h2 { color:#949393; }
 #page-meta #yit-breadcrumb a.current { color:#a96605; }
 #page-meta .slogan h2, #page-meta .slogan h3 { color: #030303; text-align: center; }
-#page-meta .slogan h2 { font-size: 30px; margin-bottom: 10px; }
+#page-meta .slogan h2 { font-size: 30px; margin-bottom: 10px;font-weight: bold;}
 #page-meta .slogan h2 span { font-size: 30px; }
 #page-meta .slogan h3 { font-size: 21px; margin-top:0px; }
 #page-meta .slogan h3 span { font-size: 18px; }
