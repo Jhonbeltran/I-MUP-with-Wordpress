@@ -476,15 +476,15 @@
 
 
                     <div class="ch-info-text">
-                        <p class="title">Bob Miller</p>
-                        <p class="subtitle">Photoshop</p>
+                        <p class="title">FLISoL Fusagasugá</p>
+                        <p class="subtitle">Imagen Corporativa</p>
                     </div>
                 </div>
             </div>
 
             <div class="slide_detail">
                 <div class="container portfolio-full-description">
-                    <div class="slide_close">[x] Close</div>
+                    <div class="slide_close">[x] Cerrar</div>
                     <div class="page type-page status-publish hentry work group row">
                         <div class="work-thumbnail span6">
                             <div class="thumb-wrapper">
