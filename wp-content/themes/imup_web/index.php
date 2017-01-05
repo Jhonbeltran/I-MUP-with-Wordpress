@@ -513,15 +513,18 @@
                         </div>
 
                         <div class="work-description span6">
-                            <h3>Bob Miller</h3>
-                            <h6>Cliente: </h6><h4><b>Comunidad Cultura Libre de Fusagasugá</b></h4><br><p>La Comunidad de Cultura Libre de Fusagasugá es una propuesta de integración entre todos los usuarios de Sistemas Operativos GNU/Linux, Software Open Source y Software Libre en Fusagasugá y alrededores.</p><br> <h6><b>Nuestro Trabajo</b></h6><ul><li> <p>Diseño Web: Construcción de sitio web </p></li><li> <p>Realización Audiovisual: Vídeo promocional de 27 segundos  de duración</p></li><li><p> Diseño Gráfico: Creación de la nueva imagen FLISoL Fusagasugá </p></li></ul></h6><br><p><h4>URL</h4><p>http://fusa.flisol.info/2016/</p>
+                            <h3>FLISoL Fusagasugá</h3>
+
+                            <p>La Comunidad de Cultura Libre de Fusagasugá es una propuesta de integración entre todos los usuarios de Sistemas
+                              Operativos GNU/Linux, Software Open Source y Software Libre en Fusagasugá y alrededores.</p>
+
 
                             <div class="work-skillsdate span6">
                                 <p class="categories paragraph-links">
-                                    <span class="meta-label">Project:</span> Photoshop, Illustrator
+                                    <span class="meta-label">Nuestro Trabajo:</span> Producción Audiovisual, Diseño Web, Imagen Corporativa.
                                 </p>
-                                <p class="customer"><span class="meta-label">Customer:</span> Bob Miller </p>
-                                <p class="workdate"><span class="meta-label">Year:</span> 2012</p>
+                                <p class="customer"><span class="meta-label">Cliente:</span>FLISoL Fusagasugá</p>
+                                <p class="workdate"><span class="meta-label">Año:</span> 2015</p>
                             </div>
                         </div>
 
