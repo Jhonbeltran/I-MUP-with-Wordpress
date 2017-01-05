@@ -1089,7 +1089,19 @@
     </div>
 </div>
 <!-- END PRIMARY -->
-
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tweetable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.superfish.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.plugins.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.themepunch.revolution.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/portfolios/filterable/js/jquery.filterable.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.tipsy.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/responsive.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.mobilemenu.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/shortcodes.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo ('template_directory'); ?>/js/jquery.custom.js'></script>
 
 <?php get_footer(); ?>
 
