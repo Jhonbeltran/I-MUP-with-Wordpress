@@ -538,7 +538,7 @@
 
         <li  class="filterable_item span3 brandidentity  logodesign ">
 
-            <div class="ch-item ch-item-hover" style="background: url('images/blog/0023-260x172.jpg') no-repeat center;">
+            <div class="ch-item ch-item-hover" style="<?php bloginfo ('template_directory'); ?>/background: url('images/blog/0023-260x172.jpg') no-repeat center;">
 
                 <div class="ch-info">
                     <div class="ch-info-icons">
