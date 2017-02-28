@@ -12,17 +12,24 @@
  * http://www.gnu.org/licenses/gpl-3.0.txt
  */
 
+/*
+Template Name: Home
+*/
+
+if( is_posts_page() || is_home() )
+    { get_template_part( 'blog' ); die; }
+
 get_header();
 do_action( 'yit_before_primary' ) ?>
 <!-- START PRIMARY -->
-<div id="primary" class="<?php yit_sidebar_layout() ?>">
+<div id="primary" class="<?php yit_sidebar_layout(); ?>">
     <div class="container group">
 	    <div class="row">
 	        <?php do_action( 'yit_before_content' ) ?>
 	        <!-- START CONTENT -->
-	        <div id="content-index" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
-	        <?php
-	        do_action( 'yit_loop' );
+	        <div id="content-home" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
+	        <?php	        
+	        do_action( 'yit_loop_page' );
 	        
 	        comments_template();
 	        ?>
@@ -33,6 +40,11 @@ do_action( 'yit_before_primary' ) ?>
 	        <?php get_sidebar() ?>
 	        
 	        <?php do_action( 'yit_after_sidebar' ) ?>
+	        
+	        <!-- START EXTRA CONTENT -->
+	        <?php do_action( 'yit_extra_content' ) ?>
+	        <!-- END EXTRA CONTENT -->
+	
 	    </div>
     </div>
 </div>

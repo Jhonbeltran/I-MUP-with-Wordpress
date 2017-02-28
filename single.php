@@ -17,12 +17,15 @@ do_action( 'yit_before_primary' ) ?>
 <!-- START PRIMARY -->
 <div id="primary" class="<?php yit_sidebar_layout() ?>">
     <div class="container group">
-	    <div class="row">
+		    <div class="row">
 	        <?php do_action( 'yit_before_content' ) ?>
 	        <!-- START CONTENT -->
-	        <div id="content-index" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
+	        <div id="content-single" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
 	        <?php
-	        do_action( 'yit_loop' );
+	        if( is_internal() )
+	            { do_action( 'yit_loop_internal' ); }
+	        else
+	            { do_action( 'yit_loop' ); }
 	        
 	        comments_template();
 	        ?>
@@ -33,7 +36,7 @@ do_action( 'yit_before_primary' ) ?>
 	        <?php get_sidebar() ?>
 	        
 	        <?php do_action( 'yit_after_sidebar' ) ?>
-	    </div>
+       </div>
     </div>
 </div>
 <!-- END PRIMARY -->

@@ -11,7 +11,7 @@
  * It is also available through the world-wide-web at this URL:
  * http://www.gnu.org/licenses/gpl-3.0.txt
  */
-
+ 
 get_header();
 do_action( 'yit_before_primary' ) ?>
 <!-- START PRIMARY -->
@@ -20,9 +20,9 @@ do_action( 'yit_before_primary' ) ?>
 	    <div class="row">
 	        <?php do_action( 'yit_before_content' ) ?>
 	        <!-- START CONTENT -->
-	        <div id="content-index" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
-	        <?php
-	        do_action( 'yit_loop' );
+	        <div id="content-page" class="span<?php echo yit_get_sidebar_layout() == 'sidebar-no' ? 12 : 9 ?> content group">
+	        <?php	        
+	        do_action( 'yit_loop_page' );
 	        
 	        comments_template();
 	        ?>
@@ -33,7 +33,11 @@ do_action( 'yit_before_primary' ) ?>
 	        <?php get_sidebar() ?>
 	        
 	        <?php do_action( 'yit_after_sidebar' ) ?>
-	    </div>
+	        
+	        <!-- START EXTRA CONTENT -->
+	        <?php do_action( 'yit_extra_content' ) ?>
+	        <!-- END EXTRA CONTENT -->
+		</div>
     </div>
 </div>
 <!-- END PRIMARY -->
