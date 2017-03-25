@@ -88,7 +88,9 @@ h3, h3 a { font-size: 20px; font-family: 'Maven Pro', sans-serif; color: #030303
 h4, h4 a { font-size: 18px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
 h5, h5 a { font-size: 15px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
 h6, h6 a { font-size: 12px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
-#page-meta .slogan h2 { font-size: 28px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
+#page-meta .slogan h2 { font-size: 28px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; padding-left: 42%;
+padding-top: 7%;
+}
 #page-meta .slogan h3 { font-size: 21px; font-family: 'Maven Pro', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
 .special-font { font-size: 12px; font-family: 'Shadows Into Light', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color: #A05F02; }
